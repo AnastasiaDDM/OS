@@ -1,0 +1,1 @@
+wmic process list brief /FORMAT:CSV > proc.txt
