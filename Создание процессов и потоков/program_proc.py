@@ -5,13 +5,10 @@ from sys import platform
 from subprocess import call
 import time
 from sys import platform
-import datetime
 import journal
 
-# timer = 0
-
 # Хэш переданных аргументов
-dic_argv = dict.fromkeys(['-t'],60)
+dic_argv = dict.fromkeys(['-t'], 60)
 dic_argv['-pr'] = 10
 
 # Файл-журнал для логов
@@ -25,13 +22,21 @@ def timer_func():
         index_env()
 
 
-# Для проверки строки, поиска соответсвия параметрам и запись в журнал.
-def check_write_process():
+# Ф-ия составления строки и вызов ф-ии записи в журнал
+def log_process(dic_process, p):
 
-    global file_log
+    # Составление строки, которая будет записана в журнал
+    line_for_file = "ID: " + str(p) + ", Name: " + str(dic_process[p]['name']) + ", Priority: " + str(
+        dic_process[p]['pr']) + ", WorkingSetSize: " + str(dic_process[p]['size'])
 
-    # Массив строк процессов
-    fr = list()
+    # Вызов ф-ии записи в файл-журнал
+    journal.log_journal(file_log, line_for_file)
+
+
+def get_list_process_win():
+
+    # Хэш процессов
+    dic_process = {}
 
     # Выполнение команды прочтения процессов и перенаправление вывода на канал переменной process
     process = subprocess.Popen('wmic process list brief /FORMAT:CSV',stdout=subprocess.PIPE)
@@ -51,11 +56,25 @@ def check_write_process():
         # Проверка длины строки и чтобы эта строка не совпадала с загаловком
         if len(line) > 5 and line != str_title:
 
-            # Заполнение массива fr
-            fr.append(line)
+            # Сплит строки по запятым - получаем массив элементов одного процесса
+            array = line.split(',')
+
+            # Составление хэша 2 уровня
+            dic_process_param = {'name': array[2], 'pr': array[3], 'size': array[6]}
+
+            # Добавления элемента в хэш процессов
+            dic_process[array[4]] = dic_process_param
+
+    return dic_process
+
+
+# Для проверки строки, поиска соответсвия параметрам
+def check_write_process(dic_process):
 
     # Получение значения ключа -list
     line_list_argv = dic_argv.get('-list')
+
+    array_list_argv = ()
 
     # Проверка наличия такого ключа
     if line_list_argv != None:
@@ -66,47 +85,31 @@ def check_write_process():
     # Получение значения ключа -pr
     priority = dic_argv.get('-pr')
 
-    # Здесь берется один элемент из массива fr
-    for line in fr:
+    # Цикл по всем ключам хэша процессов
+    for p in dic_process.keys():
 
-        # Дополнительная проверка длины строки
-        if len(line) > 2:
+        # Проверка наличия аргументов названий процессов для поиска (-list)
+        if line_list_argv != None:
 
-            # Сплит строки по запятым - получаем массив элементов одного процесса
-            array = line.split(',')
+            # Цикл проходит по всем заданным названиям процессов (-list)
+            for process_argv in array_list_argv:
 
-            if int(array[3]):
+                # Сравнение имен процессов и заданного приоритета с текущим
+                if str(dic_process[p]['name']) == process_argv and int(dic_process[p]['pr']) > int(priority):
 
-                # Проверка наличия аргументов названий процессов для поиска (-list)
-                if line_list_argv != None:
+                    # Ф-ия составление строки
+                    log_process(dic_process, p)
+                   # os.system("taskkill /f " + array[2])
+                    break
 
-                    # Цикл проходит по всем заданным названиям процессов (-list)
-                    for process_argv in array_list_argv:
+        else:
 
-                        # Сравнение имен процессов и заданного приоритета с текущим
-                        if str(array[2]) == process_argv and int(array[3]) > int(priority):
+            # Сравнение заданного приоритета и текущего
+            if int(dic_process[p]['pr']) > int(priority):
 
-                            # Составление строки, которая будет записана в журнал
-                            line_for_file = str(datetime.datetime.now())+ "    ID: "+array[4]+", Name: "+array[2]+", Priority: "+array[3]+", WorkingSetSize: "+array[6]
-
-                            # Вызов ф-ии записи в файл-журнал
-                            journal.log_journal(file_log, line_for_file)
-                           # os.system("taskkill /f " + array[2])
-                            break
-
-                else:
-
-                    # Сравнение заданного приоритета и текущего
-                    if int(array[3]) > int(priority):
-
-                        # Составление строки, которая будет записана в журнал
-                        line_for_file = str(datetime.datetime.now()) + "    ID: " + array[4] + ", Name: " + array[
-                            2] + ", Priority: " + array[3] + ", WorkingSetSize: " + array[6]
-
-                        # Вызов ф-ии записи в файл-журнал
-                        journal.log_journal(file_log, line_for_file)
-                        # os.system("taskkill /f " + array[2])
-
+                # Ф-ия составление строки
+                log_process(dic_process, p)
+            # os.system("taskkill /f " + array[2])
 
 
 # Основная ф-ия входа (обработка аргументов, вызов рабочей ф-ии).
@@ -125,31 +128,28 @@ def index_env():
             # Добавление элемента в хэш агрументов
             dic_argv[one_arg[0]] = one_arg[1]
 
-
-        # print ("Вы ввели приоритет {}!".format(sys.argv[2]))
-        # timer = int(format(sys.argv[1]))
-        # priority = format(sys.argv[2])
-        #  print (format(sys.argv[2]))
-
         if platform == "linux" or platform == "linux2":
     # Запускаем батник. он просто записывает переменные окружения в файл.
     #         bash_func = subprocess.call(['/bin/bash', 'env_bash.bash'])
             # Тут я типа выполняю действия только после того, как батник отработал.
     # if bash_func.wait() == 0:
+
+            # Ф-ия работы с хэшем процессов
             check_write_process()
         else:
-            # bat_func = subprocess.Popen('proc_bat.bat')
 
-            # Тут я типа выполняю действия только после того, как батник отработал.
-            # if bat_func.wait()==0:
+            # Ф-ия получения хэша процессов
+            dic_process = get_list_process_win()
 
-            check_write_process()
+            # Ф-ия работы с хэшем процессов
+            check_write_process(dic_process)
 
     else:
-        print ("Введите параметры для поиска")
+        print("Введите параметры для поиска")
 
     # Вызов ф-ии таймера
     timer_func()
+
 
 index_env()
 
