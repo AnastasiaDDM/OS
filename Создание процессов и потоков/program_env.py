@@ -1,87 +1,140 @@
-import os
 import subprocess
 import sys
 from sys import platform
-from subprocess import call
 import time
+import journal
 
-param = ""
-mode = 0
-timer = 0
+# Хэш переданных аргументов
+
+# Таймер по которому срабатывает этот слейв
+dic_argv = dict.fromkeys(['-t'], 10)
+
+# Режим поиска (0-точное вхождение)
+dic_argv['-mode'] = 0
+
+# Параметр для поиска (по умолчанию - user)
+dic_argv['-par'] = 'path'
+
+# Файл-журнал для логов
+file_log = "logs_environ.txt"
 
 
-# // ф-ия для записи строк в файл-журнал.
-def log_journal(string):
-    file = open('logs.txt', 'a+', encoding='utf-8')
-    file.write(string)
-    file.write("\n")
-    file.close()
+# Ф-ия таймера
+def timer_func():
+    while True:
+        time.sleep(int(dic_argv.get('-t')))
+        index_env()
+
+
+# Ф-ия составления строки и вызов ф-ии записи в журнал
+def log_env(dic_env, name):
+
+    # Составление строки, которая будет записана в журнал
+    line_for_file = "Name: " + str(name) + ", Value: " + str(dic_env[name])
+
+    # Вызов ф-ии записи в файл-журнал
+    journal.log_journal(file_log, line_for_file)
+
+
+# Ф-ия составления хэша переменных
+def get_list_env(fr):
+
+    # Хэш переменных окружения
+    dic_env = {}
+
+    # Вырезание всех пустых строк (знаков переноса строки, перевода каретки)
+    array_file = fr.split('\n')
+
+    # Цикл по каждому элементу массива array_file (элемент = строка переменной)
+    for line in array_file:
+
+        # Проверка длины строки
+        if len(line) > 5:
+
+            # Сплит строки по '=' по первому вхождению - получаем массив элементов одной переменной
+            array = line.split('=', 1)
+
+            if array[0] != "" and array[1] != "":
+
+                # Добавления элемента в хэш переменных
+                dic_env[array[0]] = array[1]
+
+    return dic_env
+
 
 # Для проверки строки и поиска соответсвия параметру .
-def dict_env():
-# //Открытие файла, где записались из батника переменные окр.
-    with open("env.txt") as file:
-        fr = file.read()
-        #   print("QQQQQ"+fr)
+def check_write_env(dic_env):
 
-# Это место я миллиард раз переделывала. Здесь берется одна строка из переменной (которая как файл)
-    for line in fr.split('\n'):
-        if line != "":
-            array = line.split('=')
-            #     print (array[0] + array[1] + "mmmmmmmmmmmmmmmmmmmmmmmmm")
+    # Получение значения ключа -pr
+    param = dic_argv.get('-par')
 
-            if array[0]!= "" and array[1]!= "":
-                if mode != 0:
-                    if array[0].upper().find(param.upper())> -1 or array[1].upper().find(param.upper())> -1:
-                        print (array[0]+"AAAAAAAAAAAAAAA")
-                        #       print (param)
-                        # Тут я вызываю ф-ю. записи в журнал.
-                        log_journal(line)
-                else:
-                    if array[0].upper() == param.upper() or array[1].upper() == param.upper():
-                        #      print (array[0]+"AAAAAAAAAAAAAAA")
-                        #      print (param)
-                        # Тут я вызываю ф-ю. записи в журнал.
-                        log_journal(line)
+    # Получение значения ключа -mode
+    mode = dic_argv.get('-mode')
+
+    # Цикл по всем ключам хэша переменных
+    for name in dic_env.keys():
+
+        # Режим не 0 - т.е. проверка любых вхождений
+        if mode != 0:
+
+            if str(name).upper().find(str(param).upper()) > -1 or dic_env.get(name).upper().find(str(param).upper()) > -1:
+
+                # Ф-ия составление строки
+                log_env(dic_env, name)
+        else:
+            if str(name).upper() == str(param).upper() or dic_env.get(name).upper() == str(param).upper():
+
+                # Ф-ия составление строки
+                log_env(dic_env, name)
 
 
-# Основная ф-ия входа. 
-def log_env():
-    global param
-    global timer
-    #   print (format(sys.argv))
-    if len(sys.argv) > 2:
-        timer = int(format(sys.argv[1]))
-        print ("Вы ввели, {}!".format(sys.argv[2]))
-        param = format(sys.argv[2])
-        #      print (format(sys.argv[2]))
+# Основная ф-ия входа (обработка аргументов, вызов рабочей ф-ии).
+def index_env():
 
-        if len(sys.argv) > 3:
-            global mode
-            mode = format(sys.argv[3])
+    global dic_argv
+
+    if len(sys.argv) > 1:
+
+        # Проход по всем переданным аргументам(кроме 0 - это путь до исполняемого файла)
+        for i in range(1, len(sys.argv)):
+
+            # Сплит аргумента
+            one_arg = format(sys.argv[i]).split(':')
+
+            # Добавление элемента в хэш агрументов
+            dic_argv[one_arg[0]] = one_arg[1]
 
         if platform == "linux" or platform == "linux2":
-    # Запускаем батник. он просто записывает переменные окружения в файл.
-            bash_func = subprocess.call(['/bin/bash', 'env_bash.bash'])
-            # Тут я типа выполняю действия только после того, как батник отработал.
-    # if bash_func.wait() == 0:
-            dict_env()
+
+            # Открытие файла, где записались из батника переменные окр.
+            with open("env.txt") as file:
+                fr = file.read()
+
+            # Вызов ф-ии преобразования данных в хэш
+            dic_env = get_list_env(fr)
+
+            # Ф-ия работы с хэшем переменных
+            check_write_env(dic_env)
+
         else:
             bat_func = subprocess.Popen('env_bat.bat')
 
-            # Тут я типа выполняю действия только после того, как батник отработал.
-            if bat_func.wait()==0:
-                dict_env()
+            # Проверка завершения работы батника
+            if bat_func.wait() == 0:
+
+                # Открытие файла, где записались из батника переменные окр.
+                with open("env.txt") as file:
+                    fr = file.read()
+
+                # Вызов ф-ии преобразования данных в хэш
+                dic_env = get_list_env(fr)
+
+                # Ф-ия работы с хэшем переменных
+                check_write_env(dic_env)
+        # Вызов ф-ии таймера
+        timer_func()
 
 
-    else:
-        print ("Введите параметры для поиска")
+index_env()
 
-
-
-log_env()
-
-while True:
-    time.sleep(timer) # in seconds
-    log_env()
 

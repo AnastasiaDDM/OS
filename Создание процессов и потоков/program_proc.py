@@ -1,15 +1,17 @@
-import os
 import subprocess
 import sys
-from sys import platform
-from subprocess import call
 import time
 from sys import platform
 import journal
+import re
 
 # Хэш переданных аргументов
-dic_argv = dict.fromkeys(['-t'], 60)
-dic_argv['-pr'] = 10
+
+# Таймер по которому срабатывает этот слейв
+dic_argv = dict.fromkeys(['-t'], 10)
+
+# Приоритет (поиск тех процессов, чей проиритет больше заданного)
+dic_argv['-pr'] = 8
 
 # Файл-журнал для логов
 file_log = "logs_process.txt"
@@ -33,6 +35,7 @@ def log_process(dic_process, p):
     journal.log_journal(file_log, line_for_file)
 
 
+# Ф-ия составления хэша для ОС WIN
 def get_list_process_win():
 
     # Хэш процессов
@@ -68,6 +71,45 @@ def get_list_process_win():
     return dic_process
 
 
+# Ф-ия составления хэша для ОС UNIX
+def get_list_process_lin():
+
+    # Хэш процессов
+    dic_process = {}
+
+    # Выполнение команды прочтения процессов и перенаправление вывода на канал переменной process
+    process = subprocess.Popen(['ps', '-la'], stdout=subprocess.PIPE)
+
+    # Получение перенаправленного вывода из переменной process в output
+    output = process.communicate()
+
+    # Вырезание всех пустых строк (знаков переноса строки, перевода каретки)
+    array_file = str(output[0]).split('\\n')
+
+    # Строка заголовка параметров процесса (нужна для дальнейшего игнорированию эквивалентной строки
+    str_title = str("b'F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD")
+
+    # Цикл по каждому элементу массива array_file (элемент = строка процесса)
+    for line in array_file:
+
+        # Проверка длины строки и чтобы эта строка не совпадала с загаловком
+        if len(line) > 5 and line != str_title:
+
+            # Приведение строки в вид, где параметры разделены ',' , а не пробелами
+            line = re.sub(r' +', ',', str(line))
+
+            # Сплит строки по запятым - получаем массив элементов одного процесса
+            array = line.split(',')
+
+            # Составление хэша 2 уровня
+            dic_process_param = {'name': array[13], 'pr': array[7], 'size': array[9]}
+
+            # Добавления элемента в хэш процессов
+            dic_process[array[3]] = dic_process_param
+
+    return dic_process
+
+
 # Для проверки строки, поиска соответсвия параметрам
 def check_write_process(dic_process):
 
@@ -77,7 +119,7 @@ def check_write_process(dic_process):
     array_list_argv = ()
 
     # Проверка наличия такого ключа
-    if line_list_argv != None:
+    if line_list_argv is not None:
 
         # Сплит строки по запятым - получаем массив элементов запрашиваемых процессов
         array_list_argv = line_list_argv.split(',')
@@ -89,7 +131,7 @@ def check_write_process(dic_process):
     for p in dic_process.keys():
 
         # Проверка наличия аргументов названий процессов для поиска (-list)
-        if line_list_argv != None:
+        if line_list_argv is not None:
 
             # Цикл проходит по всем заданным названиям процессов (-list)
             for process_argv in array_list_argv:
@@ -99,7 +141,10 @@ def check_write_process(dic_process):
 
                     # Ф-ия составление строки
                     log_process(dic_process, p)
-                   # os.system("taskkill /f " + array[2])
+
+                    # Уничтожение процесса, удовлетворяющего условия
+                    #os.kill(int(p), signal.SIGABRT)
+
                     break
 
         else:
@@ -109,7 +154,6 @@ def check_write_process(dic_process):
 
                 # Ф-ия составление строки
                 log_process(dic_process, p)
-            # os.system("taskkill /f " + array[2])
 
 
 # Основная ф-ия входа (обработка аргументов, вызов рабочей ф-ии).
@@ -117,7 +161,7 @@ def index_env():
 
     global dic_argv
 
-    if len(sys.argv) > -2:
+    if len(sys.argv) > 1:
 
         # Проход по всем переданным аргументам(кроме 0 - это путь до исполняемого файла)
         for i in range(1, len(sys.argv)):
@@ -129,13 +173,12 @@ def index_env():
             dic_argv[one_arg[0]] = one_arg[1]
 
         if platform == "linux" or platform == "linux2":
-    # Запускаем батник. он просто записывает переменные окружения в файл.
-    #         bash_func = subprocess.call(['/bin/bash', 'env_bash.bash'])
-            # Тут я типа выполняю действия только после того, как батник отработал.
-    # if bash_func.wait() == 0:
 
             # Ф-ия работы с хэшем процессов
-            check_write_process()
+            dic_process = get_list_process_lin()
+
+            # Ф-ия работы с хэшем процессов
+            check_write_process(dic_process)
         else:
 
             # Ф-ия получения хэша процессов
@@ -143,9 +186,6 @@ def index_env():
 
             # Ф-ия работы с хэшем процессов
             check_write_process(dic_process)
-
-    else:
-        print("Введите параметры для поиска")
 
     # Вызов ф-ии таймера
     timer_func()
