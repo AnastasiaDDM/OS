@@ -33,6 +33,8 @@ def timer_func():
         check()
 
 
+import winreg
+
 # Ф-ия составления строки и вызов ф-ии записи в журнал
 def log_master():
 
@@ -41,6 +43,30 @@ def log_master():
 
     # Вызов ф-ии записи в файл-журнал
     journal.log_journal(file_log, line_for_file)
+
+
+def add_master_reg():
+
+    pth = os.path.dirname(os.path.realpath(__file__))
+
+    # имя файла python с расширением
+
+    s_name = "master.py"
+    print("ЫЫЫЫЫЫЫЫЫЫЫЫ"+str(os.getcwd()))
+
+    # # соединяет имя файла с адресом конца пути
+    #
+    # # address1 = os.join(pth, s_name)
+    #
+    # address = r'python C:\Users\79016\Documents\Учеба\2\2-2\ОС\OS\Создание процессов и потоков\master.py'
+    #
+    # # Путь в реестре
+    # key_my = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r'SOFTWARE\Microsoft\Windows\CurrentVersion\Run', 0,
+    #                         winreg.KEY_ALL_ACCESS)
+    # # Установить программу "master" в автозагрузку
+    # winreg.SetValueEx(key_my, 'master', 0, winreg.REG_SZ, address)
+    # # Закрыть реестр
+    # winreg.CloseKey(key_my)
 
 
 # Вызов 1 программы с параметрами
@@ -57,10 +83,11 @@ def slave_env():
 
 # Основная ф-ия входа.
 def index():
+    add_master_reg()
 
     global dic_argv
 
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 0:
 
         # Проход по всем переданным аргументам(кроме 0 - это путь до исполняемого файла)
         for i in range(1, len(sys.argv)):
@@ -76,22 +103,22 @@ def index():
                 print("Аргумент " + format(sys.argv[i]) + " введен некорректно, данный параметр будет проигнорирован")
 
         # Проверка валидности значения таймера
-        if re.match(r'\d+', dic_argv['-t']) is None:
+        if re.match(r'\d+', str(dic_argv['-t'])) is None:
 
             dic_argv['-t'] = 10
             print("Значение для таймера(-t) должно быть числом, данный параметр будет проигнорирован. Установлен -t:" + str(dic_argv['-t']))
 
         # Проверка валидности значения приоритета
-        if re.match(r'\d+', dic_argv['-pr']) is None:
+        if re.match(r'\d+', str(dic_argv['-pr'])) is None:
 
             dic_argv['-pr'] = 8
             print("Значение для приоритета(-pr) должно быть числом, данный параметр будет проигнорирован. Установлен -pr:" + str(dic_argv['-pr']))
 
         # Проверка валидности значения списка процессов (скорее всего не имеет смысла)
-        if dic_argv['-list']:
-
-            if re.match(r'[\S^,]+([\S^,]+(,))*', dic_argv['-list']) is None:
-                print("Значение для списка процессов(-list) должно выглядет так: -list:pr1.exe,pr2.exe , данный параметр будет проигнорирован.")
+        # if dic_argv['-list']:
+        #
+        #     if re.match(r'[\S^,]+([\S^,]+(,))*', dic_argv['-list']) is None:
+        #         print("Значение для списка процессов(-list) должно выглядет так: -list:pr1.exe,pr2.exe , данный параметр будет проигнорирован.")
 
         # Инициализация двух потоков для слейвов
         thread_proc = Thread(target=slave_proc)

@@ -1,0 +1,28 @@
+2020-05-01 21:29:32.594952    Name: HOMEPATH, Value: \Users\79016
+
+2020-05-01 21:29:32.594952    Name: MYSQLCONNECTOR_ASSEMBLIESPATH, Value: C:\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2
+
+2020-05-01 21:29:32.594952    Name: Path, Value: C:\Users\79016\venv\Scripts;C:\Users\79016\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\79016\AppData\Local\Programs\Python\Python37\;C:\Users\79016\Desktop\Р?Р?Р?Р°С? РїР°РїРєР°\Scripts\;C:\Users\79016\Desktop\Р?Р?Р?Р°С? РїР°РїРєР°\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Users\79016\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\79016\AppData\Local\Microsoft\WindowsApps;C:\Users\79016\AppData\Local\Programs\Microsoft VS Code\bin
+
+2020-05-01 21:29:32.594952    Name: PATHEXT, Value: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+
+2020-05-01 21:29:32.594952    Name: PSModulePath, Value: C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+
+2020-05-01 21:29:32.594952    Name: PYTHONPATH, Value: C:\Users\79016
+
+2020-05-01 21:29:32.594952    Name: VBOX_MSI_INSTALL_PATH, Value: C:\Program Files\Oracle\VirtualBox\
+
+2020-05-01 21:29:32.594952    Name: _OLD_VIRTUAL_PATH, Value: C:\Users\79016\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\79016\AppData\Local\Programs\Python\Python37\;C:\Users\79016\Desktop\Р?Р?Р?Р°С? РїР°РїРєР°\Scripts\;C:\Users\79016\Desktop\Р?Р?Р?Р°С? РїР°РїРєР°\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Users\79016\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\79016\AppData\Local\Microsoft\WindowsApps;C:\Users\79016\AppData\Local\Programs\Microsoft VS Code\bin
+
+2020-05-01 21:38:49.847993    Name: HOMEPATH, Value: \Users\79016
+
+2020-05-01 21:38:49.847993    Name: MYSQLCONNECTOR_ASSEMBLIESPATH, Value: C:\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2
+
+2020-05-01 21:38:49.847993    Name: Path, Value: C:\Users\79016\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\79016\AppData\Local\Programs\Python\Python37\;C:\Users\79016\Desktop\Новая папка\Scripts\;C:\Users\79016\Desktop\Новая папка\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Users\79016\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\79016\AppData\Local\Microsoft\WindowsApps;C:\Users\79016\AppData\Local\Programs\Microsoft VS Code\bin
+
+2020-05-01 21:38:49.848991    Name: PATHEXT, Value: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+
+2020-05-01 21:38:49.848991    Name: PSModulePath, Value: C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+
+2020-05-01 21:38:49.850022    Name: VBOX_MSI_INSTALL_PATH, Value: C:\Program Files\Oracle\VirtualBox\
+
