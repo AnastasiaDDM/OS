@@ -1,1 +1,1 @@
-set > env.txt
+set > %1\env.txt

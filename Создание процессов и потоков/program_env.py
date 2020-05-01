@@ -3,6 +3,7 @@ import sys
 from sys import platform
 import time
 import journal
+import os
 
 # Хэш переданных аргументов
 
@@ -16,7 +17,9 @@ dic_argv['-mode'] = 0
 dic_argv['-par'] = 'path'
 
 # Файл-журнал для логов
-file_log = "logs_environ.txt"
+file_log = "\logs_environ.txt"
+
+pth = os.path.dirname(os.path.realpath(__file__))
 
 
 # Ф-ия таймера
@@ -33,7 +36,7 @@ def log_env(dic_env, name):
     line_for_file = "Name: " + str(name) + ", Value: " + str(dic_env[name])
 
     # Вызов ф-ии записи в файл-журнал
-    journal.log_journal(file_log, line_for_file)
+    journal.log_journal((str(pth)) + file_log, line_for_file)
 
 
 # Ф-ия составления хэша переменных
@@ -93,7 +96,7 @@ def index_env():
 
     global dic_argv
 
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 0:
 
         # Проход по всем переданным аргументам(кроме 0 - это путь до исполняемого файла)
         for i in range(1, len(sys.argv)):
@@ -117,13 +120,13 @@ def index_env():
             check_write_env(dic_env)
 
         else:
-            bat_func = subprocess.Popen('env_bat.bat')
+            bat_func = subprocess.Popen([(str(pth)) + '\env_bat.bat ', str(pth)])
 
             # Проверка завершения работы батника
             if bat_func.wait() == 0:
 
                 # Открытие файла, где записались из батника переменные окр.
-                with open("env.txt") as file:
+                with open(str(pth)+"\env.txt") as file:
                     fr = file.read()
 
                 # Вызов ф-ии преобразования данных в хэш

@@ -6,6 +6,10 @@ import sys
 import time
 import journal
 import re
+import winreg
+
+# Адрес текущей директории
+pth = os.path.dirname(os.path.realpath(__file__))
 
 # Хэш аргументов по умолчанию (когда пользователь ничего не ввел)
 
@@ -22,7 +26,7 @@ dic_argv['-mode'] = 0
 dic_argv['-par'] = 'path'
 
 # Файл-журнал для логов
-file_log = "logs_journal.txt"
+file_log = "\logs_journal.txt"
 
 
 # Ф-ия таймера
@@ -33,8 +37,6 @@ def timer_func():
         check()
 
 
-import winreg
-
 # Ф-ия составления строки и вызов ф-ии записи в журнал
 def log_master():
 
@@ -42,48 +44,80 @@ def log_master():
     line_for_file = "Файл stop.txt появился на рабочем столе!"
 
     # Вызов ф-ии записи в файл-журнал
-    journal.log_journal(file_log, line_for_file)
+    journal.log_journal((str(pth)) + file_log, line_for_file)
 
 
-def add_master_reg():
+# Ф-ия добавления файла master в реестр автозагрузки
+def add_master_reg(key, name_reg, address):
 
-    pth = os.path.dirname(os.path.realpath(__file__))
+    try:
 
-    # имя файла python с расширением
+        # Получения значения в реестре элемента с именем name_reg
+        software = winreg.QueryValueEx(key, name_reg)
+    except:
 
-    s_name = "master.py"
-    print("ЫЫЫЫЫЫЫЫЫЫЫЫ"+str(os.getcwd()))
+        # Установить программу "master" в автозагрузку
+        winreg.SetValueEx(key, name_reg, 0, winreg.REG_SZ, address)
 
-    # # соединяет имя файла с адресом конца пути
-    #
-    # # address1 = os.join(pth, s_name)
-    #
-    # address = r'python C:\Users\79016\Documents\Учеба\2\2-2\ОС\OS\Создание процессов и потоков\master.py'
-    #
-    # # Путь в реестре
-    # key_my = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r'SOFTWARE\Microsoft\Windows\CurrentVersion\Run', 0,
-    #                         winreg.KEY_ALL_ACCESS)
-    # # Установить программу "master" в автозагрузку
-    # winreg.SetValueEx(key_my, 'master', 0, winreg.REG_SZ, address)
-    # # Закрыть реестр
-    # winreg.CloseKey(key_my)
+
+# Ф-ия удаления файла master из реестра автозагрузки
+def del_master_reg(key, name_reg):
+
+    try:
+
+        # Получения значения в реестре элемента с именем name_reg
+        software = winreg.QueryValueEx(key, name_reg)
+
+        # Удалить программу "master" из автозагрузки
+        winreg.DeleteValue(key, name_reg)
+    except:
+        pass
+
+
+# Ф-ия отктытия ключа реестра
+def open_key_reg(autoload):
+
+    # Имя файла master, который нужно удалить из автозагрузки реестра
+    s_name = "\master.py"
+
+    # Имя в реестре прогаммы автозапуска - master
+    name_reg = "master"
+
+    # Соединяет адрес Python.exe и исполняемого текущего файла
+    address = '"' + sys.executable + '" ' + '"' + (str(pth)) + s_name + '"'
+
+    # Путь в реестре, открытие ключа
+    key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r'SOFTWARE\Microsoft\Windows\CurrentVersion\Run', 0,
+                         winreg.KEY_ALL_ACCESS)
+
+    if autoload == '1':
+
+        # Добавление мастера в автозагрузку
+        add_master_reg(key, name_reg, address)
+
+    elif autoload == '0':
+
+        # Удаление мастера из автозагрузки
+        del_master_reg(key, name_reg)
+
+    # Закрыть реестр
+    winreg.CloseKey(key)
 
 
 # Вызов 1 программы с параметрами
 def slave_proc():
 
-    slave_proc = subprocess.Popen(['python.exe', 'program_proc.py', '-t:' + str(dic_argv['-t']), '-pr:' + str(dic_argv['-pr'])])
+    slave_proc = subprocess.Popen(['python.exe', (str(pth)) + '\program_proc.py', '-t:' + str(dic_argv['-t']), '-pr:' + str(dic_argv['-pr'])])
 
 
 # Вызов 2 программы с параметрами
 def slave_env():
 
-    slave_env = subprocess.Popen(['python.exe', 'program_env.py', '-t:' + str(dic_argv['-t']), '-par:' + str(dic_argv['-par']), '-mode:' + str(dic_argv['-mode'])])
+    slave_env = subprocess.Popen(['python.exe', (str(pth)) + '\program_env.py', '-t:' + str(dic_argv['-t']), '-par:' + str(dic_argv['-par']), '-mode:' + str(dic_argv['-mode'])])
 
 
 # Основная ф-ия входа.
 def index():
-    add_master_reg()
 
     global dic_argv
 
@@ -138,6 +172,16 @@ def index():
         thread_proc.join()
         thread_env.join()
 
+        # Проверка наличия ключа -a
+        autoload = dic_argv.get('-a')
+
+        # Проверка наличия такого ключа
+        if autoload is not None:
+
+            # Ф-ия открытия ключа реестра
+            open_key_reg(autoload)
+
+        # Ф-ия запуска таймера для мастера
         timer_func()
 
 

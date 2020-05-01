@@ -1,52 +1,3556 @@
-2020-05-01 21:29:32.688682    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1273856
+2020-05-02 00:59:21.148601    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1310720
 
-2020-05-01 21:29:32.688682    ID: 948, Name: csrss.exe, Priority: 13, WorkingSetSize: 5857280
+2020-05-02 00:59:21.149581    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5931008
 
-2020-05-01 21:29:32.688682    ID: 88, Name: wininit.exe, Priority: 13, WorkingSetSize: 7094272
+2020-05-02 00:59:21.150580    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7188480
 
-2020-05-01 21:29:32.688682    ID: 732, Name: csrss.exe, Priority: 13, WorkingSetSize: 6299648
+2020-05-02 00:59:21.150580    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5476352
 
-2020-05-01 21:29:32.688682    ID: 952, Name: services.exe, Priority: 9, WorkingSetSize: 10764288
+2020-05-02 00:59:21.150580    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10924032
 
-2020-05-01 21:29:32.688682    ID: 812, Name: lsass.exe, Priority: 9, WorkingSetSize: 18972672
+2020-05-02 00:59:21.151801    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19173376
 
-2020-05-01 21:29:32.688682    ID: 1196, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19759104
+2020-05-02 00:59:21.151801    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20209664
 
-2020-05-01 21:29:32.688682    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12320768
+2020-05-02 00:59:21.152800    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12414976
 
-2020-05-01 21:29:32.688682    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 91480064
+2020-05-02 00:59:21.152800    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 77197312
 
-2020-05-01 21:29:32.704302    ID: 3464, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8986624
+2020-05-02 00:59:21.153796    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8814592
 
-2020-05-01 21:29:32.704302    ID: 4700, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5902336
+2020-05-02 00:59:21.153796    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6082560
 
-2020-05-01 21:29:32.704302    ID: 4968, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15810560
+2020-05-02 00:59:21.154568    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14499840
 
-2020-05-01 21:29:32.704302    ID: 13200, Name: chrome.exe, Priority: 10, WorkingSetSize: 147132416
+2020-05-02 00:59:31.282303    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1310720
 
-2020-05-01 21:38:49.930716    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1077248
+2020-05-02 00:59:31.282303    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5918720
 
-2020-05-01 21:38:49.931774    ID: 948, Name: csrss.exe, Priority: 13, WorkingSetSize: 5558272
+2020-05-02 00:59:31.282303    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7204864
 
-2020-05-01 21:38:49.931774    ID: 88, Name: wininit.exe, Priority: 13, WorkingSetSize: 6389760
+2020-05-02 00:59:31.282303    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5476352
 
-2020-05-01 21:38:49.932710    ID: 732, Name: csrss.exe, Priority: 13, WorkingSetSize: 6098944
+2020-05-02 00:59:31.285194    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10612736
 
-2020-05-01 21:38:49.932710    ID: 952, Name: services.exe, Priority: 9, WorkingSetSize: 10256384
+2020-05-02 00:59:31.285194    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19251200
 
-2020-05-01 21:38:49.932710    ID: 812, Name: lsass.exe, Priority: 9, WorkingSetSize: 18087936
+2020-05-02 00:59:31.285194    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20054016
 
-2020-05-01 21:38:49.933707    ID: 1196, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16732160
+2020-05-02 00:59:31.285194    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12414976
 
-2020-05-01 21:38:49.933707    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11898880
+2020-05-02 00:59:31.285194    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 73748480
 
-2020-05-01 21:38:49.933707    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 74158080
+2020-05-02 00:59:31.285194    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8814592
 
-2020-05-01 21:38:49.934704    ID: 3464, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8433664
+2020-05-02 00:59:31.285194    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6049792
 
-2020-05-01 21:38:49.934704    ID: 4700, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5545984
+2020-05-02 00:59:31.285194    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14516224
 
-2020-05-01 21:38:49.934704    ID: 4968, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 43573248
+2020-05-02 00:59:41.400501    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1310720
 
-2020-05-01 21:38:49.935702    ID: 13200, Name: chrome.exe, Priority: 10, WorkingSetSize: 263262208
+2020-05-02 00:59:41.400501    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5910528
+
+2020-05-02 00:59:41.403219    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7204864
+
+2020-05-02 00:59:41.403219    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5488640
+
+2020-05-02 00:59:41.403219    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10522624
+
+2020-05-02 00:59:41.403219    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19271680
+
+2020-05-02 00:59:41.404217    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20058112
+
+2020-05-02 00:59:41.404217    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12427264
+
+2020-05-02 00:59:41.404700    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 73740288
+
+2020-05-02 00:59:41.404947    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8814592
+
+2020-05-02 00:59:41.405159    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6049792
+
+2020-05-02 00:59:41.405414    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14540800
+
+2020-05-02 00:59:51.535603    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1302528
+
+2020-05-02 00:59:51.535603    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5914624
+
+2020-05-02 00:59:51.536706    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7204864
+
+2020-05-02 00:59:51.536953    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5505024
+
+2020-05-02 00:59:51.537342    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10563584
+
+2020-05-02 00:59:51.537359    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19378176
+
+2020-05-02 00:59:51.537955    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20058112
+
+2020-05-02 00:59:51.538394    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12427264
+
+2020-05-02 00:59:51.538556    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 74801152
+
+2020-05-02 00:59:51.538556    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8900608
+
+2020-05-02 00:59:51.538556    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6086656
+
+2020-05-02 00:59:51.539555    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14561280
+
+2020-05-02 01:00:01.689601    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1302528
+
+2020-05-02 01:00:01.689601    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5918720
+
+2020-05-02 01:00:01.690748    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7127040
+
+2020-05-02 01:00:01.691004    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5545984
+
+2020-05-02 01:00:01.691309    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10559488
+
+2020-05-02 01:00:01.691572    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19566592
+
+2020-05-02 01:00:01.691572    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20004864
+
+2020-05-02 01:00:01.692095    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12378112
+
+2020-05-02 01:00:01.692383    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 74375168
+
+2020-05-02 01:00:01.692785    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8851456
+
+2020-05-02 01:00:01.692934    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6074368
+
+2020-05-02 01:00:01.692934    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14577664
+
+2020-05-02 01:00:11.809214    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:00:11.809214    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5885952
+
+2020-05-02 01:00:11.810981    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:00:11.810981    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5513216
+
+2020-05-02 01:00:11.810981    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10514432
+
+2020-05-02 01:00:11.810981    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19410944
+
+2020-05-02 01:00:11.810981    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19664896
+
+2020-05-02 01:00:11.810981    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:00:11.810981    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 73900032
+
+2020-05-02 01:00:11.810981    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:00:11.810981    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:00:11.810981    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14503936
+
+2020-05-02 01:00:21.943310    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:00:21.943310    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5898240
+
+2020-05-02 01:00:21.943310    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:00:21.943310    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5513216
+
+2020-05-02 01:00:21.943310    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10530816
+
+2020-05-02 01:00:21.943310    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19431424
+
+2020-05-02 01:00:21.958931    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19668992
+
+2020-05-02 01:00:21.958931    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:00:21.958931    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 71933952
+
+2020-05-02 01:00:21.958931    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:00:21.958931    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:00:21.958931    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14503936
+
+2020-05-02 01:00:32.053815    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:00:32.053815    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5885952
+
+2020-05-02 01:00:32.053815    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:00:32.053815    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5513216
+
+2020-05-02 01:00:32.053815    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10514432
+
+2020-05-02 01:00:32.053815    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19488768
+
+2020-05-02 01:00:32.053815    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19668992
+
+2020-05-02 01:00:32.053815    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:00:32.053815    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 71942144
+
+2020-05-02 01:00:32.053815    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:00:32.053815    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:00:32.053815    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14503936
+
+2020-05-02 01:00:42.154981    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:00:42.154981    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5885952
+
+2020-05-02 01:00:42.154981    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:00:42.154981    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 5525504
+
+2020-05-02 01:00:42.154981    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10534912
+
+2020-05-02 01:00:42.154981    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19496960
+
+2020-05-02 01:00:42.154981    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19668992
+
+2020-05-02 01:00:42.162326    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:00:42.162326    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 73224192
+
+2020-05-02 01:00:42.162326    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:00:42.162326    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:00:42.162326    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14532608
+
+2020-05-02 01:00:52.281287    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:00:52.281287    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5885952
+
+2020-05-02 01:00:52.281287    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:00:52.281287    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6070272
+
+2020-05-02 01:00:52.281287    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10534912
+
+2020-05-02 01:00:52.281287    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19525632
+
+2020-05-02 01:00:52.281287    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19668992
+
+2020-05-02 01:00:52.281287    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:00:52.281287    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 78647296
+
+2020-05-02 01:00:52.281287    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8839168
+
+2020-05-02 01:00:52.281287    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:00:52.281287    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14610432
+
+2020-05-02 01:01:02.403289    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:01:02.403289    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 01:01:02.403289    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:01:02.403289    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6074368
+
+2020-05-02 01:01:02.403289    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10674176
+
+2020-05-02 01:01:02.403289    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19554304
+
+2020-05-02 01:01:02.403289    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:01:02.403289    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:01:02.403289    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 75546624
+
+2020-05-02 01:01:02.403289    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8839168
+
+2020-05-02 01:01:02.403289    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:01:02.403289    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14610432
+
+2020-05-02 01:01:12.524584    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:01:12.524584    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 01:01:12.524584    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:01:12.524584    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6094848
+
+2020-05-02 01:01:12.524584    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10723328
+
+2020-05-02 01:01:12.524584    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19628032
+
+2020-05-02 01:01:12.524584    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:01:12.524584    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:01:12.524584    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 75788288
+
+2020-05-02 01:01:12.524584    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:01:12.524584    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:01:12.524584    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14643200
+
+2020-05-02 01:01:22.635241    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:01:22.635241    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 01:01:22.650862    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:01:22.650862    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6094848
+
+2020-05-02 01:01:22.650862    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10723328
+
+2020-05-02 01:01:22.650862    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19628032
+
+2020-05-02 01:01:22.650862    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:01:22.650862    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:01:22.650862    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 75698176
+
+2020-05-02 01:01:22.650862    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:01:22.650862    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:01:22.650862    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14643200
+
+2020-05-02 01:01:32.745814    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:01:32.745814    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5984256
+
+2020-05-02 01:01:32.745814    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:01:32.745814    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6078464
+
+2020-05-02 01:01:32.745814    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10629120
+
+2020-05-02 01:01:32.745814    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19615744
+
+2020-05-02 01:01:32.745814    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:01:32.745814    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:01:32.745814    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 75698176
+
+2020-05-02 01:01:32.745814    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:01:32.745814    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:01:32.745814    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14643200
+
+2020-05-02 01:01:42.857950    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:01:42.857950    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 01:01:42.857950    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:01:42.857950    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6082560
+
+2020-05-02 01:01:42.857950    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10686464
+
+2020-05-02 01:01:42.857950    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19615744
+
+2020-05-02 01:01:42.857950    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:01:42.857950    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:01:42.857950    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 121176064
+
+2020-05-02 01:01:42.857950    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8830976
+
+2020-05-02 01:01:42.857950    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:01:42.857950    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14635008
+
+2020-05-02 01:01:52.996234    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:01:52.997232    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 01:01:52.997232    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:01:52.997232    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6078464
+
+2020-05-02 01:01:52.997232    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10645504
+
+2020-05-02 01:01:52.998229    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19619840
+
+2020-05-02 01:01:52.998229    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:01:52.998229    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:01:52.998229    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 94310400
+
+2020-05-02 01:01:52.999226    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:01:52.999226    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:01:53.000226    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14954496
+
+2020-05-02 01:02:03.119924    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:02:03.119924    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:02:03.119924    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:02:03.119924    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6070272
+
+2020-05-02 01:02:03.120921    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:02:03.120921    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19632128
+
+2020-05-02 01:02:03.120921    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:02:03.121918    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:02:03.121918    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86458368
+
+2020-05-02 01:02:03.121918    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:02:03.121918    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:02:03.122916    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:02:13.225079    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:02:13.225079    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:02:13.225079    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:02:13.226049    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6066176
+
+2020-05-02 01:02:13.226049    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:02:13.226049    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19648512
+
+2020-05-02 01:02:13.227047    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:02:13.227047    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:02:13.227047    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86446080
+
+2020-05-02 01:02:13.227047    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:02:13.228046    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:02:13.228046    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:02:23.343032    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:02:23.343032    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:02:23.344000    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:02:23.344000    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6066176
+
+2020-05-02 01:02:23.344000    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:02:23.344000    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19648512
+
+2020-05-02 01:02:23.345002    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:02:23.345002    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:02:23.345002    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86446080
+
+2020-05-02 01:02:23.345002    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:02:23.346029    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:02:23.346029    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:02:33.456997    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:02:33.457994    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:02:33.457994    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:02:33.457994    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6053888
+
+2020-05-02 01:02:33.457994    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:02:33.458992    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19640320
+
+2020-05-02 01:02:33.458992    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:02:33.458992    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:02:33.459989    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86917120
+
+2020-05-02 01:02:33.459989    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:02:33.459989    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:02:33.459989    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:02:43.569123    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:02:43.569123    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:02:43.569123    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:02:43.570120    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6049792
+
+2020-05-02 01:02:43.570120    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10665984
+
+2020-05-02 01:02:43.570120    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19632128
+
+2020-05-02 01:02:43.570120    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:02:43.571117    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:02:43.571117    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86847488
+
+2020-05-02 01:02:43.571117    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:02:43.572115    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:02:43.572115    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:02:53.683321    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:02:53.684319    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:02:53.685316    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:02:53.685316    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6049792
+
+2020-05-02 01:02:53.685316    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10768384
+
+2020-05-02 01:02:53.686313    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19632128
+
+2020-05-02 01:02:53.686313    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:02:53.686313    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:02:53.687310    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86847488
+
+2020-05-02 01:02:53.687310    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:02:53.688308    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:02:53.688308    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:03:03.799916    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:03:03.800912    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 01:03:03.800912    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:03:03.800912    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6045696
+
+2020-05-02 01:03:03.801907    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10768384
+
+2020-05-02 01:03:03.801907    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19636224
+
+2020-05-02 01:03:03.801907    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:03:03.802905    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:03:03.802905    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86827008
+
+2020-05-02 01:03:03.803902    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:03:03.803902    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:03:03.804899    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:03:13.951979    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:03:13.952976    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 01:03:13.952976    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:03:13.953973    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6045696
+
+2020-05-02 01:03:13.953973    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:03:13.953973    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:03:13.954971    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:03:13.954971    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:03:13.954971    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86921216
+
+2020-05-02 01:03:13.954971    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:03:13.955969    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:03:13.955969    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:03:24.068928    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:03:24.068928    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:03:24.068928    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:03:24.069926    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6041600
+
+2020-05-02 01:03:24.069926    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:03:24.069926    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:03:24.070923    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:03:24.070923    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:03:24.070923    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86908928
+
+2020-05-02 01:03:24.070923    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:03:24.071920    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:03:24.071920    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:03:34.173905    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:03:34.173905    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:03:34.174903    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:03:34.174903    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6037504
+
+2020-05-02 01:03:34.174903    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:03:34.174903    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:03:34.175900    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:03:34.175900    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:03:34.175900    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86908928
+
+2020-05-02 01:03:34.175900    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:03:34.176897    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:03:34.176897    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:03:44.289078    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:03:44.289078    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:03:44.289078    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:03:44.290049    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6037504
+
+2020-05-02 01:03:44.290049    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10665984
+
+2020-05-02 01:03:44.290049    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:03:44.291046    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:03:44.291046    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:03:44.291046    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86908928
+
+2020-05-02 01:03:44.291046    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:03:44.292043    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:03:44.292043    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:03:54.414865    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:03:54.414865    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:03:54.415901    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:03:54.415901    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6037504
+
+2020-05-02 01:03:54.415901    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:03:54.415901    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:03:54.416860    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19652608
+
+2020-05-02 01:03:54.416860    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:03:54.416860    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86908928
+
+2020-05-02 01:03:54.416860    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8966144
+
+2020-05-02 01:03:54.417857    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:03:54.417857    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14987264
+
+2020-05-02 01:04:04.555287    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:04:04.556251    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:04:04.556251    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:04:04.556251    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6144000
+
+2020-05-02 01:04:04.556251    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10665984
+
+2020-05-02 01:04:04.557249    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19648512
+
+2020-05-02 01:04:04.557249    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19656704
+
+2020-05-02 01:04:04.557249    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12349440
+
+2020-05-02 01:04:04.557249    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 87425024
+
+2020-05-02 01:04:04.558246    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8970240
+
+2020-05-02 01:04:04.558246    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:04:04.558246    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14995456
+
+2020-05-02 01:04:04.558246    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 138145792
+
+2020-05-02 01:04:14.674533    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:04:14.674533    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:04:14.674533    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:04:14.675531    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6139904
+
+2020-05-02 01:04:14.675531    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:04:14.675531    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19660800
+
+2020-05-02 01:04:14.676528    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19656704
+
+2020-05-02 01:04:14.676528    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12349440
+
+2020-05-02 01:04:14.676528    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86532096
+
+2020-05-02 01:04:14.677526    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:04:14.677526    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:04:14.677526    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15003648
+
+2020-05-02 01:04:14.677526    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 127569920
+
+2020-05-02 01:04:24.781987    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:04:24.782987    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:04:24.782987    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:04:24.782987    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6127616
+
+2020-05-02 01:04:24.782987    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:04:24.783984    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19660800
+
+2020-05-02 01:04:24.783984    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19656704
+
+2020-05-02 01:04:24.783984    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12349440
+
+2020-05-02 01:04:24.783984    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86355968
+
+2020-05-02 01:04:24.784981    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:04:24.784981    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:04:24.784981    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15003648
+
+2020-05-02 01:04:24.784981    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 110501888
+
+2020-05-02 01:04:34.900737    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:04:34.901735    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:04:34.901735    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:04:34.901735    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6127616
+
+2020-05-02 01:04:34.901735    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10788864
+
+2020-05-02 01:04:34.902732    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19640320
+
+2020-05-02 01:04:34.902732    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19656704
+
+2020-05-02 01:04:34.902732    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12349440
+
+2020-05-02 01:04:34.903730    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86577152
+
+2020-05-02 01:04:34.903730    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:04:34.904744    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:04:34.904744    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15007744
+
+2020-05-02 01:04:34.904744    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 110505984
+
+2020-05-02 01:04:45.025349    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:04:45.025349    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:04:45.025349    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:04:45.025349    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6131712
+
+2020-05-02 01:04:45.026347    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10784768
+
+2020-05-02 01:04:45.026347    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19628032
+
+2020-05-02 01:04:45.026347    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19656704
+
+2020-05-02 01:04:45.027343    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12349440
+
+2020-05-02 01:04:45.027343    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86401024
+
+2020-05-02 01:04:45.027343    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:04:45.027343    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:04:45.028341    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15007744
+
+2020-05-02 01:04:45.028341    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 110505984
+
+2020-05-02 01:04:55.138073    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:04:55.139069    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:04:55.139069    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7098368
+
+2020-05-02 01:04:55.139069    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6131712
+
+2020-05-02 01:04:55.139069    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:04:55.140067    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19632128
+
+2020-05-02 01:04:55.140067    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19656704
+
+2020-05-02 01:04:55.140067    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12349440
+
+2020-05-02 01:04:55.140067    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86388736
+
+2020-05-02 01:04:55.141065    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:04:55.141065    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5795840
+
+2020-05-02 01:04:55.141065    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15007744
+
+2020-05-02 01:04:55.142061    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 139399168
+
+2020-05-02 01:05:05.259195    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:05:05.259195    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5971968
+
+2020-05-02 01:05:05.260195    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:05:05.260195    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6127616
+
+2020-05-02 01:05:05.260195    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10674176
+
+2020-05-02 01:05:05.261193    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19734528
+
+2020-05-02 01:05:05.261193    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:05:05.261193    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:05:05.261193    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86380544
+
+2020-05-02 01:05:05.262189    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:05:05.262189    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:05:05.262189    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14999552
+
+2020-05-02 01:05:05.263187    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 137613312
+
+2020-05-02 01:05:15.379390    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:05:15.379390    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 01:05:15.380387    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:05:15.380387    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6127616
+
+2020-05-02 01:05:15.380387    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:05:15.380387    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19734528
+
+2020-05-02 01:05:15.381385    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:05:15.381385    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:05:15.381385    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86458368
+
+2020-05-02 01:05:15.381385    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:05:15.382383    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:05:15.382383    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14999552
+
+2020-05-02 01:05:15.382383    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 148066304
+
+2020-05-02 01:05:25.510579    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:05:25.510579    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 01:05:25.511541    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:05:25.511541    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6127616
+
+2020-05-02 01:05:25.511541    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:05:25.511541    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19738624
+
+2020-05-02 01:05:25.512540    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:05:25.512540    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:05:25.512540    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86458368
+
+2020-05-02 01:05:25.513536    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:05:25.513536    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:05:25.513536    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14999552
+
+2020-05-02 01:05:25.514533    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 142356480
+
+2020-05-02 01:05:35.652310    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:05:35.652310    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 01:05:35.653308    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:05:35.653308    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6115328
+
+2020-05-02 01:05:35.653308    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:05:35.654305    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19722240
+
+2020-05-02 01:05:35.654305    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:05:35.654305    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:05:35.654305    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86466560
+
+2020-05-02 01:05:35.655302    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:05:35.655302    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:05:35.655302    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15007744
+
+2020-05-02 01:05:35.655302    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 157495296
+
+2020-05-02 01:05:45.773352    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:05:45.774310    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 01:05:45.774310    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:05:45.774310    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6115328
+
+2020-05-02 01:05:45.775367    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:05:45.775367    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19726336
+
+2020-05-02 01:05:45.775367    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:05:45.775367    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:05:45.776304    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 98414592
+
+2020-05-02 01:05:45.776304    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:05:45.776304    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:05:45.776304    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15028224
+
+2020-05-02 01:05:45.777338    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 143699968
+
+2020-05-02 01:05:55.892192    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:05:55.892192    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:05:55.892192    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:05:55.893191    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6119424
+
+2020-05-02 01:05:55.893191    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:05:55.893191    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19722240
+
+2020-05-02 01:05:55.893191    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:05:55.894151    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:05:55.894151    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86618112
+
+2020-05-02 01:05:55.894151    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:05:55.894151    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:05:55.895148    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15302656
+
+2020-05-02 01:05:55.895148    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 166649856
+
+2020-05-02 01:06:06.017806    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:06:06.017806    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:06:06.017806    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:06:06.018763    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6139904
+
+2020-05-02 01:06:06.018763    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:06:06.018763    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19726336
+
+2020-05-02 01:06:06.018763    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:06:06.019762    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:06:06.019762    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86958080
+
+2020-05-02 01:06:06.019762    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:06:06.019762    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:06:06.020759    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15298560
+
+2020-05-02 01:06:06.020759    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 239300608
+
+2020-05-02 01:06:16.140438    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:06:16.140438    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:06:16.141433    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:06:16.141433    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6148096
+
+2020-05-02 01:06:16.141433    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10788864
+
+2020-05-02 01:06:16.142431    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19726336
+
+2020-05-02 01:06:16.142431    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:06:16.142431    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:06:16.142431    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 87023616
+
+2020-05-02 01:06:16.143428    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:06:16.143428    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:06:16.144425    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15310848
+
+2020-05-02 01:06:16.144425    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 205172736
+
+2020-05-02 01:06:26.256473    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:06:26.256473    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:06:26.257437    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:06:26.257437    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6148096
+
+2020-05-02 01:06:26.257437    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:06:26.257437    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19726336
+
+2020-05-02 01:06:26.258434    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:06:26.258434    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:06:26.258434    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 86843392
+
+2020-05-02 01:06:26.258434    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:06:26.259431    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:06:26.259431    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15319040
+
+2020-05-02 01:06:26.259431    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 199372800
+
+2020-05-02 01:06:36.385773    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:06:36.385773    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:06:36.385773    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:06:36.385773    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6148096
+
+2020-05-02 01:06:36.386771    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:06:36.386771    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19726336
+
+2020-05-02 01:06:36.386771    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:06:36.387768    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:06:36.387768    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89956352
+
+2020-05-02 01:06:36.387768    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:06:36.388765    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:06:36.388765    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15323136
+
+2020-05-02 01:06:36.388765    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 207589376
+
+2020-05-02 01:06:46.512448    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:06:46.512448    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:06:46.513448    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:06:46.513448    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6148096
+
+2020-05-02 01:06:46.513448    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:06:46.513448    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19726336
+
+2020-05-02 01:06:46.514444    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:06:46.514444    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:06:46.514444    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89116672
+
+2020-05-02 01:06:46.514444    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:06:46.515442    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:06:46.515442    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15323136
+
+2020-05-02 01:06:46.515442    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 215318528
+
+2020-05-02 01:06:56.633403    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:06:56.633403    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:06:56.634401    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:06:56.634401    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6156288
+
+2020-05-02 01:06:56.634401    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:06:56.635397    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19722240
+
+2020-05-02 01:06:56.635397    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19648512
+
+2020-05-02 01:06:56.635397    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:06:56.635397    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 88903680
+
+2020-05-02 01:06:56.636410    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:06:56.636410    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:06:56.636410    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15323136
+
+2020-05-02 01:06:56.636410    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 238968832
+
+2020-05-02 01:07:06.782368    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:07:06.783365    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5984256
+
+2020-05-02 01:07:06.783365    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:07:06.783365    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6152192
+
+2020-05-02 01:07:06.783365    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:07:06.784363    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19779584
+
+2020-05-02 01:07:06.784363    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:07:06.784363    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:07:06.785359    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 102432768
+
+2020-05-02 01:07:06.785359    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:07:06.785359    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:07:06.785359    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15323136
+
+2020-05-02 01:07:06.786381    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 203333632
+
+2020-05-02 01:07:16.911997    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:07:16.911997    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5984256
+
+2020-05-02 01:07:16.911997    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:07:16.912995    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6156288
+
+2020-05-02 01:07:16.912995    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:07:16.912995    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19783680
+
+2020-05-02 01:07:16.912995    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:07:16.913992    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:07:16.913992    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89436160
+
+2020-05-02 01:07:16.913992    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:07:16.913992    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:07:16.914989    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15331328
+
+2020-05-02 01:07:16.914989    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 194338816
+
+2020-05-02 01:07:27.048969    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:07:27.049931    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5984256
+
+2020-05-02 01:07:27.049931    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:07:27.049931    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6148096
+
+2020-05-02 01:07:27.050928    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:07:27.050928    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19783680
+
+2020-05-02 01:07:27.050928    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:07:27.050928    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:07:27.051926    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89526272
+
+2020-05-02 01:07:27.051926    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:07:27.051926    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:07:27.052923    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15331328
+
+2020-05-02 01:07:27.052923    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 194338816
+
+2020-05-02 01:07:37.167678    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:07:37.168677    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5984256
+
+2020-05-02 01:07:37.168677    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:07:37.168677    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6135808
+
+2020-05-02 01:07:37.168677    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:07:37.169674    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19763200
+
+2020-05-02 01:07:37.169674    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:07:37.169674    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:07:37.169674    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 98803712
+
+2020-05-02 01:07:37.170672    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:07:37.170672    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:07:37.170672    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15372288
+
+2020-05-02 01:07:37.171669    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 194342912
+
+2020-05-02 01:07:47.307533    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:07:47.308531    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5984256
+
+2020-05-02 01:07:47.308531    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:07:47.309528    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6148096
+
+2020-05-02 01:07:47.310231    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10788864
+
+2020-05-02 01:07:47.310231    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19783680
+
+2020-05-02 01:07:47.311278    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:07:47.311278    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:07:47.312230    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 100786176
+
+2020-05-02 01:07:47.312230    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:07:47.312230    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:07:47.313227    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:07:47.313227    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 178307072
+
+2020-05-02 01:07:57.446588    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:07:57.447588    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 01:07:57.447588    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:07:57.447588    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6168576
+
+2020-05-02 01:07:57.447588    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10784768
+
+2020-05-02 01:07:57.448585    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19779584
+
+2020-05-02 01:07:57.448585    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:07:57.448585    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:07:57.449582    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 94875648
+
+2020-05-02 01:07:57.449582    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:07:57.449582    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:07:57.449582    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:07:57.450579    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 178307072
+
+2020-05-02 01:08:08.097754    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:08:08.098752    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:08:08.099749    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:08:08.100746    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6336512
+
+2020-05-02 01:08:08.102741    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:08:08.104735    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19783680
+
+2020-05-02 01:08:08.105733    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:08:08.111717    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12341248
+
+2020-05-02 01:08:08.112714    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 95453184
+
+2020-05-02 01:08:08.114709    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:08:08.115706    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:08:08.116705    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:08:08.120693    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 178135040
+
+2020-05-02 01:08:18.437105    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:08:18.438102    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:08:18.439099    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:08:18.439099    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6246400
+
+2020-05-02 01:08:18.440097    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10731520
+
+2020-05-02 01:08:18.440097    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19763200
+
+2020-05-02 01:08:18.441094    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19685376
+
+2020-05-02 01:08:18.442091    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12337152
+
+2020-05-02 01:08:18.443090    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89657344
+
+2020-05-02 01:08:18.444086    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:08:18.445083    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:08:18.445083    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:08:18.446080    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 218931200
+
+2020-05-02 01:08:28.620894    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:08:28.621890    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:08:28.622889    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:08:28.623885    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6209536
+
+2020-05-02 01:08:28.624884    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10653696
+
+2020-05-02 01:08:28.624884    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19767296
+
+2020-05-02 01:08:28.625881    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19685376
+
+2020-05-02 01:08:28.625881    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12337152
+
+2020-05-02 01:08:28.626878    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89505792
+
+2020-05-02 01:08:28.627878    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:08:28.628874    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:08:28.629872    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:08:28.630870    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 204537856
+
+2020-05-02 01:08:38.775170    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:08:38.776168    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:08:38.776168    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:08:38.777167    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6189056
+
+2020-05-02 01:08:38.777167    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10715136
+
+2020-05-02 01:08:38.778163    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19767296
+
+2020-05-02 01:08:38.779159    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19689472
+
+2020-05-02 01:08:38.779159    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12337152
+
+2020-05-02 01:08:38.780158    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89223168
+
+2020-05-02 01:08:38.780158    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:08:38.781155    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:08:38.781155    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:08:38.782152    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 187088896
+
+2020-05-02 01:08:48.990705    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:08:48.991703    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:08:48.991703    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:08:48.992701    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6201344
+
+2020-05-02 01:08:48.992701    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10784768
+
+2020-05-02 01:08:48.993697    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19767296
+
+2020-05-02 01:08:48.994696    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19693568
+
+2020-05-02 01:08:48.995693    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12337152
+
+2020-05-02 01:08:48.996689    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89223168
+
+2020-05-02 01:08:48.997687    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:08:48.998684    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:08:48.999681    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:08:49.000679    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190947328
+
+2020-05-02 01:08:59.152124    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:08:59.153121    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 01:08:59.153121    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:08:59.154120    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6189056
+
+2020-05-02 01:08:59.154120    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10653696
+
+2020-05-02 01:08:59.155115    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19763200
+
+2020-05-02 01:08:59.156114    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:08:59.156114    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12337152
+
+2020-05-02 01:08:59.157110    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89223168
+
+2020-05-02 01:08:59.158107    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:08:59.158107    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:08:59.159105    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15384576
+
+2020-05-02 01:08:59.160102    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190971904
+
+2020-05-02 01:09:09.297828    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:09:09.298825    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5984256
+
+2020-05-02 01:09:09.299823    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:09:09.299823    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6184960
+
+2020-05-02 01:09:09.299823    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10665984
+
+2020-05-02 01:09:09.300820    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19652608
+
+2020-05-02 01:09:09.301817    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:09:09.301817    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:09:09.302814    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:09:09.302814    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:09:09.303811    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:09:09.303811    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:09:09.304809    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190967808
+
+2020-05-02 01:09:19.443568    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:09:19.443568    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 6000640
+
+2020-05-02 01:09:19.444565    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:09:19.444565    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6193152
+
+2020-05-02 01:09:19.445562    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10739712
+
+2020-05-02 01:09:19.445562    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19689472
+
+2020-05-02 01:09:19.446560    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:09:19.446560    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:09:19.447557    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:09:19.447557    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:09:19.447557    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:09:19.447557    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:09:19.448554    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190476288
+
+2020-05-02 01:09:29.587653    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:09:29.588653    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:09:29.588653    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:09:29.589650    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6201344
+
+2020-05-02 01:09:29.589650    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10686464
+
+2020-05-02 01:09:29.590647    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19681280
+
+2020-05-02 01:09:29.590647    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:09:29.591643    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:09:29.591643    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:09:29.591643    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:09:29.592678    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:09:29.592678    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:09:29.593639    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190468096
+
+2020-05-02 01:09:39.719908    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:09:39.719908    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:09:39.720906    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:09:39.720906    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6201344
+
+2020-05-02 01:09:39.720906    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10682368
+
+2020-05-02 01:09:39.721903    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19673088
+
+2020-05-02 01:09:39.721903    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:09:39.721903    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:09:39.721903    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:09:39.722900    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:09:39.722900    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:09:39.722900    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:09:39.722900    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190468096
+
+2020-05-02 01:09:49.838011    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:09:49.838011    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:09:49.838011    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:09:49.838011    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6201344
+
+2020-05-02 01:09:49.839008    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10739712
+
+2020-05-02 01:09:49.839008    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19660800
+
+2020-05-02 01:09:49.839008    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:09:49.840008    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:09:49.840008    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:09:49.840008    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:09:49.840008    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:09:49.841032    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:09:49.841032    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190468096
+
+2020-05-02 01:09:59.971027    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:09:59.972025    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:09:59.972025    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:09:59.972025    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:09:59.973227    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10743808
+
+2020-05-02 01:09:59.973227    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19660800
+
+2020-05-02 01:09:59.973227    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:09:59.974227    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:09:59.974227    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:09:59.975224    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:09:59.975224    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:09:59.975224    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:09:59.976222    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190287872
+
+2020-05-02 01:10:10.104365    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:10:10.105378    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 01:10:10.105378    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:10:10.106395    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:10:10.106395    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10784768
+
+2020-05-02 01:10:10.107390    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19664896
+
+2020-05-02 01:10:10.108387    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:10:10.109383    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:10:10.109383    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:10:10.110350    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:10:10.110350    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:10:10.111377    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:10:10.111377    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 204640256
+
+2020-05-02 01:10:20.230789    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:10:20.230789    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5980160
+
+2020-05-02 01:10:20.231786    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:10:20.231786    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:10:20.232783    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10665984
+
+2020-05-02 01:10:20.233781    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19673088
+
+2020-05-02 01:10:20.233781    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:10:20.233781    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:10:20.234776    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:10:20.234776    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:10:20.234776    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:10:20.235775    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:10:20.235775    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 190275584
+
+2020-05-02 01:10:30.357957    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:10:30.358957    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 01:10:30.358957    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:10:30.358957    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:10:30.359954    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10665984
+
+2020-05-02 01:10:30.359954    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19673088
+
+2020-05-02 01:10:30.359954    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:10:30.359954    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12345344
+
+2020-05-02 01:10:30.360951    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89235456
+
+2020-05-02 01:10:30.360951    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:10:30.360951    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:10:30.361949    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15388672
+
+2020-05-02 01:10:30.361949    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 189943808
+
+2020-05-02 01:10:40.482949    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:10:40.482949    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:10:40.483903    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:10:40.483903    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:10:40.483903    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10653696
+
+2020-05-02 01:10:40.483903    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19628032
+
+2020-05-02 01:10:40.484901    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:10:40.484901    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:10:40.484901    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89645056
+
+2020-05-02 01:10:40.485898    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:10:40.485898    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:10:40.485898    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15400960
+
+2020-05-02 01:10:40.485898    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 241815552
+
+2020-05-02 01:10:50.601895    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:10:50.602929    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:10:50.602929    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:10:50.603891    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:10:50.603891    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10653696
+
+2020-05-02 01:10:50.603891    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19636224
+
+2020-05-02 01:10:50.603891    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:10:50.604888    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:10:50.604888    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89354240
+
+2020-05-02 01:10:50.604888    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:10:50.605885    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:10:50.605885    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15462400
+
+2020-05-02 01:10:50.605885    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 235737088
+
+2020-05-02 01:11:00.734365    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:11:00.734365    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:11:00.734365    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:11:00.735363    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:11:00.735363    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10670080
+
+2020-05-02 01:11:00.735363    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19640320
+
+2020-05-02 01:11:00.735363    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:11:00.736360    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:11:00.736360    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89354240
+
+2020-05-02 01:11:00.736360    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:11:00.737358    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:11:00.737358    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:11:00.737358    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226050048
+
+2020-05-02 01:11:10.864971    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:11:10.865930    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:11:10.865930    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:11:10.865930    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:11:10.866927    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10653696
+
+2020-05-02 01:11:10.866927    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19640320
+
+2020-05-02 01:11:10.866927    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:11:10.866927    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:11:10.867925    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 91385856
+
+2020-05-02 01:11:10.867925    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:11:10.867925    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:11:10.868923    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:11:10.868923    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226041856
+
+2020-05-02 01:11:21.016052    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:11:21.016052    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:11:21.017050    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:11:21.017050    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:11:21.017050    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10731520
+
+2020-05-02 01:11:21.018048    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19640320
+
+2020-05-02 01:11:21.018048    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:11:21.018048    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:11:21.018048    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 91521024
+
+2020-05-02 01:11:21.019045    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:11:21.019045    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:11:21.019045    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:11:21.020041    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226156544
+
+2020-05-02 01:11:31.166452    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:11:31.166452    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:11:31.167451    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:11:31.167451    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6184960
+
+2020-05-02 01:11:31.168447    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10788864
+
+2020-05-02 01:11:31.168447    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:11:31.169446    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:11:31.169446    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:11:31.170442    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 91463680
+
+2020-05-02 01:11:31.170442    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:11:31.171440    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:11:31.171440    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:11:31.172437    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226189312
+
+2020-05-02 01:11:41.304491    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:11:41.304491    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:11:41.305453    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:11:41.305453    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:11:41.305453    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10772480
+
+2020-05-02 01:11:41.305453    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:11:41.306450    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:11:41.306450    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:11:41.307448    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89350144
+
+2020-05-02 01:11:41.307448    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:11:41.307448    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:11:41.308445    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:11:41.308445    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226095104
+
+2020-05-02 01:11:51.432952    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:11:51.432952    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:11:51.432952    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:11:51.433915    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:11:51.433915    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:11:51.433915    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:11:51.434911    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:11:51.434911    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:11:51.434911    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89350144
+
+2020-05-02 01:11:51.435908    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:11:51.435908    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:11:51.435908    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:11:51.435908    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226201600
+
+2020-05-02 01:12:01.562762    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:12:01.562762    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5963776
+
+2020-05-02 01:12:01.562762    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:12:01.563761    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:12:01.563761    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10665984
+
+2020-05-02 01:12:01.563761    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:12:01.564757    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:12:01.564757    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:12:01.564757    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89354240
+
+2020-05-02 01:12:01.565755    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:12:01.565755    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:12:01.565755    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:12:01.565755    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226308096
+
+2020-05-02 01:12:11.697743    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:12:11.698763    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5959680
+
+2020-05-02 01:12:11.698763    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:12:11.698763    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6180864
+
+2020-05-02 01:12:11.698763    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10678272
+
+2020-05-02 01:12:11.699739    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19623936
+
+2020-05-02 01:12:11.699739    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:12:11.699739    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:12:11.700736    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89444352
+
+2020-05-02 01:12:11.700736    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:12:11.700736    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:12:11.700736    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:12:11.701733    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226480128
+
+2020-05-02 01:12:21.824458    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:12:21.824458    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5955584
+
+2020-05-02 01:12:21.825456    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:12:21.825456    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6180864
+
+2020-05-02 01:12:21.825456    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10661888
+
+2020-05-02 01:12:21.826453    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19640320
+
+2020-05-02 01:12:21.826453    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:12:21.827450    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:12:21.827450    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89448448
+
+2020-05-02 01:12:21.827450    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:12:21.828447    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:12:21.828447    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:12:21.829445    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226586624
+
+2020-05-02 01:12:31.953409    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:12:31.953409    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5959680
+
+2020-05-02 01:12:31.953409    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7090176
+
+2020-05-02 01:12:31.954406    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6172672
+
+2020-05-02 01:12:31.954406    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10657792
+
+2020-05-02 01:12:31.954406    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19640320
+
+2020-05-02 01:12:31.954406    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19697664
+
+2020-05-02 01:12:31.955403    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12333056
+
+2020-05-02 01:12:31.955403    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89350144
+
+2020-05-02 01:12:31.955403    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8962048
+
+2020-05-02 01:12:31.956401    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5820416
+
+2020-05-02 01:12:31.956401    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15470592
+
+2020-05-02 01:12:31.956401    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 226590720
+
+2020-05-02 01:12:42.087934    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1286144
+
+2020-05-02 01:12:42.088905    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5959680
+
+2020-05-02 01:12:42.088905    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7086080
+
+2020-05-02 01:12:42.088905    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6176768
+
+2020-05-02 01:12:42.088905    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10735616
+
+2020-05-02 01:12:42.089902    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19636224
+
+2020-05-02 01:12:42.089902    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19693568
+
+2020-05-02 01:12:42.089902    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12328960
+
+2020-05-02 01:12:42.090900    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 91668480
+
+2020-05-02 01:12:42.090900    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8957952
+
+2020-05-02 01:12:42.090900    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5816320
+
+2020-05-02 01:12:42.091897    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15491072
+
+2020-05-02 01:12:42.091897    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 235945984
+
+2020-05-02 01:12:52.226287    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1269760
+
+2020-05-02 01:12:52.226287    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 01:12:52.227287    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7057408
+
+2020-05-02 01:12:52.227287    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6148096
+
+2020-05-02 01:12:52.227287    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10727424
+
+2020-05-02 01:12:52.228282    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19587072
+
+2020-05-02 01:12:52.228282    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19673088
+
+2020-05-02 01:12:52.228282    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12300288
+
+2020-05-02 01:12:52.228282    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 89858048
+
+2020-05-02 01:12:52.229280    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:12:52.229280    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:12:52.230278    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15454208
+
+2020-05-02 01:12:52.230278    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 233480192
+
+2020-05-02 01:13:02.377607    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1269760
+
+2020-05-02 01:13:02.378580    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 01:13:02.378580    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7057408
+
+2020-05-02 01:13:02.378580    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6197248
+
+2020-05-02 01:13:02.379578    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10772480
+
+2020-05-02 01:13:02.379578    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19587072
+
+2020-05-02 01:13:02.379578    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19673088
+
+2020-05-02 01:13:02.379578    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12300288
+
+2020-05-02 01:13:02.380575    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 91209728
+
+2020-05-02 01:13:02.380575    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:13:02.380575    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:13:02.380575    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15454208
+
+2020-05-02 01:13:02.381572    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 211619840
+
+2020-05-02 01:13:12.510930    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1269760
+
+2020-05-02 01:13:12.510930    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 01:13:12.511926    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7057408
+
+2020-05-02 01:13:12.511926    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6189056
+
+2020-05-02 01:13:12.512924    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10756096
+
+2020-05-02 01:13:12.512924    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19587072
+
+2020-05-02 01:13:12.513921    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19673088
+
+2020-05-02 01:13:12.513921    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12300288
+
+2020-05-02 01:13:12.513921    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 90935296
+
+2020-05-02 01:13:12.514919    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:13:12.514919    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:13:12.515916    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15486976
+
+2020-05-02 01:13:12.515916    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 222765056
+
+2020-05-02 01:13:22.655867    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1269760
+
+2020-05-02 01:13:22.655867    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5926912
+
+2020-05-02 01:13:22.656831    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7057408
+
+2020-05-02 01:13:22.656831    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6189056
+
+2020-05-02 01:13:22.656831    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10649600
+
+2020-05-02 01:13:22.656831    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19587072
+
+2020-05-02 01:13:22.657828    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19673088
+
+2020-05-02 01:13:22.657828    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12300288
+
+2020-05-02 01:13:22.657828    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 96825344
+
+2020-05-02 01:13:22.657828    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:13:22.658827    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:13:22.658827    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15486976
+
+2020-05-02 01:13:22.658827    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 212000768
+
+2020-05-02 01:13:32.785609    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1269760
+
+2020-05-02 01:13:32.786610    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5926912
+
+2020-05-02 01:13:32.786610    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7057408
+
+2020-05-02 01:13:32.786610    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6180864
+
+2020-05-02 01:13:32.787566    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10649600
+
+2020-05-02 01:13:32.787566    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19574784
+
+2020-05-02 01:13:32.787566    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19673088
+
+2020-05-02 01:13:32.787566    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12300288
+
+2020-05-02 01:13:32.788593    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 96669696
+
+2020-05-02 01:13:32.788593    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:13:32.788593    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:13:32.788593    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15495168
+
+2020-05-02 01:13:32.789560    ID: 3540, Name: chrome.exe, Priority: 10, WorkingSetSize: 211746816
+
+2020-05-02 01:13:42.914853    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1269760
+
+2020-05-02 01:13:42.915853    ID: 952, Name: csrss.exe, Priority: 13, WorkingSetSize: 5926912
+
+2020-05-02 01:13:42.915853    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7057408
+
+2020-05-02 01:13:42.915853    ID: 740, Name: csrss.exe, Priority: 13, WorkingSetSize: 6090752
+
+2020-05-02 01:13:42.915853    ID: 920, Name: services.exe, Priority: 9, WorkingSetSize: 10645504
+
+2020-05-02 01:13:42.916849    ID: 956, Name: lsass.exe, Priority: 9, WorkingSetSize: 19574784
+
+2020-05-02 01:13:42.916849    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19673088
+
+2020-05-02 01:13:42.916849    ID: 1552, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12300288
+
+2020-05-02 01:13:42.916849    ID: 1716, Name: dwm.exe, Priority: 13, WorkingSetSize: 96681984
+
+2020-05-02 01:13:42.917847    ID: 3472, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:13:42.917847    ID: 4596, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5787648
+
+2020-05-02 01:13:42.917847    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 15491072
+
+2020-05-02 01:14:36.515742    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1318912
+
+2020-05-02 01:14:36.515742    ID: 944, Name: csrss.exe, Priority: 13, WorkingSetSize: 5918720
+
+2020-05-02 01:14:36.516635    ID: 96, Name: wininit.exe, Priority: 13, WorkingSetSize: 7200768
+
+2020-05-02 01:14:36.516635    ID: 736, Name: csrss.exe, Priority: 13, WorkingSetSize: 5533696
+
+2020-05-02 01:14:36.516635    ID: 908, Name: services.exe, Priority: 9, WorkingSetSize: 11042816
+
+2020-05-02 01:14:36.516635    ID: 900, Name: lsass.exe, Priority: 9, WorkingSetSize: 19054592
+
+2020-05-02 01:14:36.517999    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20275200
+
+2020-05-02 01:14:36.517999    ID: 1556, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12439552
+
+2020-05-02 01:14:36.517999    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 76935168
+
+2020-05-02 01:14:36.517999    ID: 3460, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8818688
+
+2020-05-02 01:14:36.517999    ID: 4632, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6115328
+
+2020-05-02 01:14:36.517999    ID: 8336, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14606336
+
+2020-05-02 01:14:46.622233    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1318912
+
+2020-05-02 01:14:46.622233    ID: 944, Name: csrss.exe, Priority: 13, WorkingSetSize: 5898240
+
+2020-05-02 01:14:46.622233    ID: 96, Name: wininit.exe, Priority: 13, WorkingSetSize: 7208960
+
+2020-05-02 01:14:46.622233    ID: 736, Name: csrss.exe, Priority: 13, WorkingSetSize: 5558272
+
+2020-05-02 01:14:46.622233    ID: 908, Name: services.exe, Priority: 9, WorkingSetSize: 10592256
+
+2020-05-02 01:14:46.622233    ID: 900, Name: lsass.exe, Priority: 9, WorkingSetSize: 19099648
+
+2020-05-02 01:14:46.622233    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20140032
+
+2020-05-02 01:14:46.622233    ID: 1556, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12410880
+
+2020-05-02 01:14:46.622233    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 76902400
+
+2020-05-02 01:14:46.622233    ID: 3460, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8798208
+
+2020-05-02 01:14:46.622233    ID: 4632, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6098944
+
+2020-05-02 01:14:46.622233    ID: 8336, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14655488
+
+2020-05-02 01:14:56.718845    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1318912
+
+2020-05-02 01:14:56.721313    ID: 944, Name: csrss.exe, Priority: 13, WorkingSetSize: 5894144
+
+2020-05-02 01:14:56.721313    ID: 96, Name: wininit.exe, Priority: 13, WorkingSetSize: 7208960
+
+2020-05-02 01:14:56.721313    ID: 736, Name: csrss.exe, Priority: 13, WorkingSetSize: 5550080
+
+2020-05-02 01:14:56.721313    ID: 908, Name: services.exe, Priority: 9, WorkingSetSize: 10506240
+
+2020-05-02 01:14:56.721313    ID: 900, Name: lsass.exe, Priority: 9, WorkingSetSize: 19116032
+
+2020-05-02 01:14:56.721313    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20144128
+
+2020-05-02 01:14:56.721313    ID: 1556, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12480512
+
+2020-05-02 01:14:56.721313    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 73420800
+
+2020-05-02 01:14:56.721313    ID: 3460, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8798208
+
+2020-05-02 01:14:56.721313    ID: 4632, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6098944
+
+2020-05-02 01:14:56.721313    ID: 8336, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14675968
+
+2020-05-02 01:15:06.837803    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1310720
+
+2020-05-02 01:15:06.838411    ID: 944, Name: csrss.exe, Priority: 13, WorkingSetSize: 5898240
+
+2020-05-02 01:15:06.838658    ID: 96, Name: wininit.exe, Priority: 13, WorkingSetSize: 7208960
+
+2020-05-02 01:15:06.838658    ID: 736, Name: csrss.exe, Priority: 13, WorkingSetSize: 5558272
+
+2020-05-02 01:15:06.838658    ID: 908, Name: services.exe, Priority: 9, WorkingSetSize: 10522624
+
+2020-05-02 01:15:06.839271    ID: 900, Name: lsass.exe, Priority: 9, WorkingSetSize: 19267584
+
+2020-05-02 01:15:06.839820    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20144128
+
+2020-05-02 01:15:06.840046    ID: 1556, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12480512
+
+2020-05-02 01:15:06.840280    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 73805824
+
+2020-05-02 01:15:06.840659    ID: 3460, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8798208
+
+2020-05-02 01:15:06.840659    ID: 4632, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6135808
+
+2020-05-02 01:15:06.841167    ID: 8336, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14688256
+
+2020-05-02 01:15:16.967779    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1310720
+
+2020-05-02 01:15:16.968139    ID: 944, Name: csrss.exe, Priority: 13, WorkingSetSize: 5902336
+
+2020-05-02 01:15:16.968139    ID: 96, Name: wininit.exe, Priority: 13, WorkingSetSize: 7163904
+
+2020-05-02 01:15:16.968719    ID: 736, Name: csrss.exe, Priority: 13, WorkingSetSize: 5615616
+
+2020-05-02 01:15:16.968869    ID: 908, Name: services.exe, Priority: 9, WorkingSetSize: 10530816
+
+2020-05-02 01:15:16.968869    ID: 900, Name: lsass.exe, Priority: 9, WorkingSetSize: 19619840
+
+2020-05-02 01:15:16.968869    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20086784
+
+2020-05-02 01:15:16.969611    ID: 1556, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12431360
+
+2020-05-02 01:15:16.969886    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 73814016
+
+2020-05-02 01:15:16.970140    ID: 3460, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8749056
+
+2020-05-02 01:15:16.970399    ID: 4632, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6168576
+
+2020-05-02 01:15:16.970660    ID: 8336, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14688256
+
+2020-05-02 01:15:27.084736    ID: 680, Name: smss.exe, Priority: 11, WorkingSetSize: 1294336
+
+2020-05-02 01:15:27.084736    ID: 944, Name: csrss.exe, Priority: 13, WorkingSetSize: 5873664
+
+2020-05-02 01:15:27.087270    ID: 96, Name: wininit.exe, Priority: 13, WorkingSetSize: 7135232
+
+2020-05-02 01:15:27.087524    ID: 736, Name: csrss.exe, Priority: 13, WorkingSetSize: 5591040
+
+2020-05-02 01:15:27.087752    ID: 908, Name: services.exe, Priority: 9, WorkingSetSize: 10518528
+
+2020-05-02 01:15:27.088000    ID: 900, Name: lsass.exe, Priority: 9, WorkingSetSize: 19435520
+
+2020-05-02 01:15:27.088000    ID: 1192, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19742720
+
+2020-05-02 01:15:27.088507    ID: 1556, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12402688
+
+2020-05-02 01:15:27.088791    ID: 1720, Name: dwm.exe, Priority: 13, WorkingSetSize: 71168000
+
+2020-05-02 01:15:27.089168    ID: 3460, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8953856
+
+2020-05-02 01:15:27.089168    ID: 4632, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5890048
+
+2020-05-02 01:15:27.089757    ID: 8336, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14581760
+
+2020-05-02 01:17:46.797964    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1306624
+
+2020-05-02 01:17:46.797964    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5849088
+
+2020-05-02 01:17:46.799885    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7192576
+
+2020-05-02 01:17:46.800291    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5505024
+
+2020-05-02 01:17:46.800560    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10936320
+
+2020-05-02 01:17:46.800892    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 19226624
+
+2020-05-02 01:17:46.801013    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20029440
+
+2020-05-02 01:17:46.801348    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12464128
+
+2020-05-02 01:17:46.801453    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 77103104
+
+2020-05-02 01:17:46.801884    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8867840
+
+2020-05-02 01:17:46.801884    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6066176
+
+2020-05-02 01:17:46.801884    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14581760
+
+2020-05-02 01:17:56.911092    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1306624
+
+2020-05-02 01:17:56.911092    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5836800
+
+2020-05-02 01:17:56.913164    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7196672
+
+2020-05-02 01:17:56.913164    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5537792
+
+2020-05-02 01:17:56.913896    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10526720
+
+2020-05-02 01:17:56.913896    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 19202048
+
+2020-05-02 01:17:56.914224    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20013056
+
+2020-05-02 01:17:56.914224    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12464128
+
+2020-05-02 01:17:56.914224    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 80003072
+
+2020-05-02 01:17:56.915111    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:17:56.915111    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6049792
+
+2020-05-02 01:17:56.915645    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14610432
+
+2020-05-02 01:18:07.035851    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1306624
+
+2020-05-02 01:18:07.035851    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5832704
+
+2020-05-02 01:18:07.035851    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7196672
+
+2020-05-02 01:18:07.035851    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5541888
+
+2020-05-02 01:18:07.038368    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10489856
+
+2020-05-02 01:18:07.038422    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 19226624
+
+2020-05-02 01:18:07.038422    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20013056
+
+2020-05-02 01:18:07.038422    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12476416
+
+2020-05-02 01:18:07.038422    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 78606336
+
+2020-05-02 01:18:07.039491    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:18:07.039491    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6049792
+
+2020-05-02 01:18:07.039491    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14639104
+
+2020-05-02 01:18:17.175019    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1298432
+
+2020-05-02 01:18:17.175019    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5808128
+
+2020-05-02 01:18:17.175019    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7196672
+
+2020-05-02 01:18:17.177022    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5554176
+
+2020-05-02 01:18:17.177022    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10555392
+
+2020-05-02 01:18:17.177543    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 19361792
+
+2020-05-02 01:18:17.177543    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 20013056
+
+2020-05-02 01:18:17.178072    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12476416
+
+2020-05-02 01:18:17.178316    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 78954496
+
+2020-05-02 01:18:17.178601    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8933376
+
+2020-05-02 01:18:17.178866    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6078464
+
+2020-05-02 01:18:17.179133    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14651392
+
+2020-05-02 01:18:27.328886    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1298432
+
+2020-05-02 01:18:27.328886    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5832704
+
+2020-05-02 01:18:27.328886    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7151616
+
+2020-05-02 01:18:27.329884    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6119424
+
+2020-05-02 01:18:27.330414    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10506240
+
+2020-05-02 01:18:27.330990    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 19456000
+
+2020-05-02 01:18:27.330990    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19963904
+
+2020-05-02 01:18:27.330990    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12423168
+
+2020-05-02 01:18:27.331988    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 79568896
+
+2020-05-02 01:18:27.331988    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8884224
+
+2020-05-02 01:18:27.332984    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 6062080
+
+2020-05-02 01:18:27.332984    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14815232
+
+2020-05-02 01:18:37.462617    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1282048
+
+2020-05-02 01:18:37.462856    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5804032
+
+2020-05-02 01:18:37.462996    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7127040
+
+2020-05-02 01:18:37.462996    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6082560
+
+2020-05-02 01:18:37.462996    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10448896
+
+2020-05-02 01:18:37.462996    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 19365888
+
+2020-05-02 01:18:37.462996    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19619840
+
+2020-05-02 01:18:37.462996    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12390400
+
+2020-05-02 01:18:37.462996    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 76341248
+
+2020-05-02 01:18:37.462996    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8863744
+
+2020-05-02 01:18:37.462996    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5779456
+
+2020-05-02 01:18:37.465973    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14704640
+
+2020-05-02 01:18:47.596069    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1282048
+
+2020-05-02 01:18:47.596069    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5779456
+
+2020-05-02 01:18:47.596069    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 7127040
+
+2020-05-02 01:18:47.596069    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6090752
+
+2020-05-02 01:18:47.596069    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10465280
+
+2020-05-02 01:18:47.596069    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 19382272
+
+2020-05-02 01:18:47.596069    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 19619840
+
+2020-05-02 01:18:47.596069    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 12390400
+
+2020-05-02 01:18:47.596069    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 76427264
+
+2020-05-02 01:18:47.596069    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 8863744
+
+2020-05-02 01:18:47.596069    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5779456
+
+2020-05-02 01:18:47.596069    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 14729216
+
+2020-05-02 01:52:31.963432    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:52:31.963432    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5287936
+
+2020-05-02 01:52:31.964430    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:52:31.964430    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5464064
+
+2020-05-02 01:52:31.964430    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10289152
+
+2020-05-02 01:52:31.964430    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17956864
+
+2020-05-02 01:52:31.965427    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:52:31.965427    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:52:31.965427    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:52:31.966425    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:52:31.966425    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:52:31.966425    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:52:31.966425    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429633536
+
+2020-05-02 01:52:44.145735    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:52:44.145735    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 01:52:44.145735    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:52:44.146733    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5472256
+
+2020-05-02 01:52:44.146733    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10072064
+
+2020-05-02 01:52:44.146733    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17956864
+
+2020-05-02 01:52:44.146733    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:52:44.147728    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:52:44.147728    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:52:44.147728    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:52:44.148727    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:52:44.148727    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:52:44.148727    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429633536
+
+2020-05-02 01:53:01.530654    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:53:01.530654    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 01:53:01.531651    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:53:01.531651    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5472256
+
+2020-05-02 01:53:01.531651    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10080256
+
+2020-05-02 01:53:01.532620    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:53:01.532620    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:53:01.532620    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:53:01.532620    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:53:01.533618    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:53:01.533618    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:53:01.533618    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:53:01.533618    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429633536
+
+2020-05-02 01:53:07.220249    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:53:07.220249    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 01:53:07.221247    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:53:07.222243    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5472256
+
+2020-05-02 01:53:07.222243    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10244096
+
+2020-05-02 01:53:07.222243    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17948672
+
+2020-05-02 01:53:07.223240    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:53:07.224237    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:53:07.224237    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:53:07.225235    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:53:07.225235    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:53:07.226233    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:53:07.226233    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429633536
+
+2020-05-02 01:53:35.863995    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:53:35.864990    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 01:53:35.864990    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:53:35.864990    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5468160
+
+2020-05-02 01:53:35.865987    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10166272
+
+2020-05-02 01:53:35.865987    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17952768
+
+2020-05-02 01:53:35.865987    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:53:35.866985    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:53:35.866985    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:53:35.866985    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:53:35.867982    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:53:35.867982    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:53:35.867982    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429629440
+
+2020-05-02 01:53:47.146240    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:53:47.146240    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 01:53:47.147238    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:53:47.147238    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5464064
+
+2020-05-02 01:53:47.147238    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10194944
+
+2020-05-02 01:53:47.148235    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17956864
+
+2020-05-02 01:53:47.148235    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:53:47.149232    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:53:47.149232    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:53:47.150229    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:53:47.150229    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:53:47.150229    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:53:47.151226    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429629440
+
+2020-05-02 01:53:52.305308    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:53:52.305308    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5279744
+
+2020-05-02 01:53:52.306306    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:53:52.306306    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5464064
+
+2020-05-02 01:53:52.306306    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10190848
+
+2020-05-02 01:53:52.307272    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17956864
+
+2020-05-02 01:53:52.307272    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:53:52.307272    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:53:52.307272    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:53:52.308270    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:53:52.308270    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:53:52.308270    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:53:52.308270    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429629440
+
+2020-05-02 01:53:59.747241    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:53:59.747241    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 01:53:59.747241    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6328320
+
+2020-05-02 01:53:59.748238    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5464064
+
+2020-05-02 01:53:59.748238    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10182656
+
+2020-05-02 01:53:59.748238    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17956864
+
+2020-05-02 01:53:59.749201    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16097280
+
+2020-05-02 01:53:59.749201    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:53:59.749201    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64860160
+
+2020-05-02 01:53:59.749201    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7917568
+
+2020-05-02 01:53:59.750204    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:53:59.750204    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49278976
+
+2020-05-02 01:53:59.750204    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 429629440
+
+2020-05-02 01:54:11.636834    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:54:11.637831    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:54:11.638829    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:54:11.638829    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5435392
+
+2020-05-02 01:54:11.639825    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10219520
+
+2020-05-02 01:54:11.639825    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17956864
+
+2020-05-02 01:54:11.640823    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16052224
+
+2020-05-02 01:54:11.640823    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:54:11.641822    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64184320
+
+2020-05-02 01:54:11.641822    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:54:11.642820    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:54:11.642820    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49057792
+
+2020-05-02 01:54:11.643815    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 413376512
+
+2020-05-02 01:54:37.828025    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:54:37.828025    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:54:37.829022    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:54:37.830019    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5431296
+
+2020-05-02 01:54:37.830019    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10145792
+
+2020-05-02 01:54:37.830019    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:54:37.831017    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16052224
+
+2020-05-02 01:54:37.831017    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:54:37.832014    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64839680
+
+2020-05-02 01:54:37.832014    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:54:37.833011    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:54:37.833011    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:54:37.834009    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 414617600
+
+2020-05-02 01:54:43.046704    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:54:43.047703    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:54:43.047703    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:54:43.048699    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5439488
+
+2020-05-02 01:54:43.048699    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10219520
+
+2020-05-02 01:54:43.049696    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:54:43.049696    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16052224
+
+2020-05-02 01:54:43.049696    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:54:43.050693    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64753664
+
+2020-05-02 01:54:43.050693    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:54:43.051690    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:54:43.051690    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:54:43.051690    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 414298112
+
+2020-05-02 01:54:47.834171    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:54:47.834171    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:54:47.834171    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:54:47.835168    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5439488
+
+2020-05-02 01:54:47.835168    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10199040
+
+2020-05-02 01:54:47.835168    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:54:47.836166    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16052224
+
+2020-05-02 01:54:47.836166    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:54:47.836166    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64266240
+
+2020-05-02 01:54:47.836166    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:54:47.837163    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:54:47.837163    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:54:47.837163    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 432336896
+
+2020-05-02 01:54:57.965621    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:54:57.966617    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:54:57.966617    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:54:57.966617    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5439488
+
+2020-05-02 01:54:57.966617    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 9998336
+
+2020-05-02 01:54:57.967654    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:54:57.967654    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16146432
+
+2020-05-02 01:54:57.967654    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:54:57.968613    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64274432
+
+2020-05-02 01:54:57.968613    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:54:57.968613    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:54:57.968613    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:54:57.969609    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 483004416
+
+2020-05-02 01:55:01.491225    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:55:01.491225    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:55:01.492222    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:55:01.492222    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5439488
+
+2020-05-02 01:55:01.493219    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10149888
+
+2020-05-02 01:55:01.493219    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:55:01.494217    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16146432
+
+2020-05-02 01:55:01.495213    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:55:01.495213    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64274432
+
+2020-05-02 01:55:01.496211    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:55:01.496211    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:55:01.497208    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:55:01.498205    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 500539392
+
+2020-05-02 01:55:05.551431    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:55:05.551431    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:55:05.551431    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:55:05.552429    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5439488
+
+2020-05-02 01:55:05.552429    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10153984
+
+2020-05-02 01:55:05.553427    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:55:05.553427    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16146432
+
+2020-05-02 01:55:05.553427    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:55:05.553427    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64274432
+
+2020-05-02 01:55:05.554423    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:55:05.554423    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:55:05.554423    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:55:05.555420    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 521023488
+
+2020-05-02 01:55:37.582410    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:55:37.583407    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:55:37.583407    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:55:37.584406    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5419008
+
+2020-05-02 01:55:37.584406    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10067968
+
+2020-05-02 01:55:37.585402    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:55:37.585402    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16220160
+
+2020-05-02 01:55:37.585402    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:55:37.586399    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64274432
+
+2020-05-02 01:55:37.586399    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:55:37.586399    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:55:37.587397    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:55:37.587397    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 683028480
+
+2020-05-02 01:55:47.259586    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:55:47.259586    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:55:47.260599    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:55:47.260599    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5419008
+
+2020-05-02 01:55:47.260599    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10145792
+
+2020-05-02 01:55:47.260599    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:55:47.261579    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16220160
+
+2020-05-02 01:55:47.261579    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:55:47.261579    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64274432
+
+2020-05-02 01:55:47.262577    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:55:47.262577    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:55:47.262577    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:55:47.262577    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 731914240
+
+2020-05-02 01:56:01.354967    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:56:01.354967    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:56:01.355965    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:56:01.355965    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5419008
+
+2020-05-02 01:56:01.355965    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10125312
+
+2020-05-02 01:56:01.356962    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:56:01.356962    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16220160
+
+2020-05-02 01:56:01.356962    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:56:01.356962    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64274432
+
+2020-05-02 01:56:01.357984    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:56:01.357984    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:56:01.357984    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:56:01.358957    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 802590720
+
+2020-05-02 01:56:18.987129    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 01:56:18.988128    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5259264
+
+2020-05-02 01:56:18.988128    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6311936
+
+2020-05-02 01:56:18.988128    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5419008
+
+2020-05-02 01:56:18.988128    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10018816
+
+2020-05-02 01:56:18.989126    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17944576
+
+2020-05-02 01:56:18.989126    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16220160
+
+2020-05-02 01:56:18.989126    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11112448
+
+2020-05-02 01:56:18.990144    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64274432
+
+2020-05-02 01:56:18.990144    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7913472
+
+2020-05-02 01:56:18.990144    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5263360
+
+2020-05-02 01:56:18.991148    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49053696
+
+2020-05-02 01:56:18.991148    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 890626048
+
+2020-05-02 02:06:41.414825    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 02:06:41.415813    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5300224
+
+2020-05-02 02:06:41.415813    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6287360
+
+2020-05-02 02:06:41.416810    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5959680
+
+2020-05-02 02:06:41.416810    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 9994240
+
+2020-05-02 02:06:41.416810    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17907712
+
+2020-05-02 02:06:41.417806    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 16048128
+
+2020-05-02 02:06:41.417806    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11325440
+
+2020-05-02 02:06:41.417806    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 70426624
+
+2020-05-02 02:06:41.417806    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7839744
+
+2020-05-02 02:06:41.418804    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5246976
+
+2020-05-02 02:06:41.418804    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49074176
+
+2020-05-02 02:06:41.418804    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 888582144
+
+2020-05-02 02:16:56.242809    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 02:16:56.243848    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5292032
+
+2020-05-02 02:16:56.243848    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6283264
+
+2020-05-02 02:16:56.244805    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5943296
+
+2020-05-02 02:16:56.244805    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10162176
+
+2020-05-02 02:16:56.244805    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17416192
+
+2020-05-02 02:16:56.244805    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15872000
+
+2020-05-02 02:16:56.245846    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11329536
+
+2020-05-02 02:16:56.245846    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 70242304
+
+2020-05-02 02:16:56.245846    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:16:56.246800    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5201920
+
+2020-05-02 02:16:56.246800    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49987584
+
+2020-05-02 02:16:56.246800    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 876281856
+
+2020-05-02 02:17:06.363827    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1069056
+
+2020-05-02 02:17:06.364788    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5292032
+
+2020-05-02 02:17:06.364788    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6283264
+
+2020-05-02 02:17:06.364788    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5943296
+
+2020-05-02 02:17:06.364788    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10268672
+
+2020-05-02 02:17:06.365785    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17424384
+
+2020-05-02 02:17:06.365785    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15872000
+
+2020-05-02 02:17:06.365785    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11329536
+
+2020-05-02 02:17:06.365785    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 70283264
+
+2020-05-02 02:17:06.366782    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:17:06.366782    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5201920
+
+2020-05-02 02:17:06.366782    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49995776
+
+2020-05-02 02:17:06.367780    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 876281856
+
+2020-05-02 02:18:49.090463    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:18:49.091459    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5332992
+
+2020-05-02 02:18:49.091459    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6283264
+
+2020-05-02 02:18:49.092456    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5959680
+
+2020-05-02 02:18:49.092456    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10375168
+
+2020-05-02 02:18:49.092456    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17494016
+
+2020-05-02 02:18:49.093453    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15859712
+
+2020-05-02 02:18:49.093453    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11329536
+
+2020-05-02 02:18:49.093453    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 72192000
+
+2020-05-02 02:18:49.094450    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:18:49.094450    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5201920
+
+2020-05-02 02:18:49.094450    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49963008
+
+2020-05-02 02:18:49.094450    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 876023808
+
+2020-05-02 02:18:59.224686    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:18:59.224686    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5316608
+
+2020-05-02 02:18:59.225658    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6283264
+
+2020-05-02 02:18:59.225658    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5951488
+
+2020-05-02 02:18:59.225658    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10215424
+
+2020-05-02 02:18:59.226646    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17494016
+
+2020-05-02 02:18:59.226646    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15859712
+
+2020-05-02 02:18:59.226646    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11329536
+
+2020-05-02 02:18:59.226646    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 70504448
+
+2020-05-02 02:18:59.227645    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:18:59.227645    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5201920
+
+2020-05-02 02:18:59.227645    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49963008
+
+2020-05-02 02:18:59.228642    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 876023808
+
+2020-05-02 02:19:14.299800    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:19:14.299800    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5304320
+
+2020-05-02 02:19:14.299800    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6254592
+
+2020-05-02 02:19:14.300796    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 02:19:14.300796    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10231808
+
+2020-05-02 02:19:14.300796    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17485824
+
+2020-05-02 02:19:14.301795    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15851520
+
+2020-05-02 02:19:14.301795    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11284480
+
+2020-05-02 02:19:14.301795    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 70062080
+
+2020-05-02 02:19:14.301795    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:19:14.302791    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5124096
+
+2020-05-02 02:19:14.302791    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49127424
+
+2020-05-02 02:19:14.302791    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 824635392
+
+2020-05-02 02:19:24.436585    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:19:24.436585    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5304320
+
+2020-05-02 02:19:24.436585    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6254592
+
+2020-05-02 02:19:24.437583    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 02:19:24.437583    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10219520
+
+2020-05-02 02:19:24.437583    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17494016
+
+2020-05-02 02:19:24.438580    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15851520
+
+2020-05-02 02:19:24.438580    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11284480
+
+2020-05-02 02:19:24.438580    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 70062080
+
+2020-05-02 02:19:24.439578    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:19:24.439578    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5124096
+
+2020-05-02 02:19:24.439578    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49127424
+
+2020-05-02 02:19:24.440578    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 824635392
+
+2020-05-02 02:19:33.622261    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:19:33.622261    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5304320
+
+2020-05-02 02:19:33.622261    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6254592
+
+2020-05-02 02:19:33.623258    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5926912
+
+2020-05-02 02:19:33.623258    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10285056
+
+2020-05-02 02:19:33.623258    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17498112
+
+2020-05-02 02:19:33.624256    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15851520
+
+2020-05-02 02:19:33.624256    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11284480
+
+2020-05-02 02:19:33.624256    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 70148096
+
+2020-05-02 02:19:33.624256    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:19:33.625253    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5124096
+
+2020-05-02 02:19:33.625253    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49127424
+
+2020-05-02 02:19:33.625253    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 824635392
+
+2020-05-02 02:19:43.758028    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:19:43.758028    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5304320
+
+2020-05-02 02:19:43.759009    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6254592
+
+2020-05-02 02:19:43.759009    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5926912
+
+2020-05-02 02:19:43.759009    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10395648
+
+2020-05-02 02:19:43.759009    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17502208
+
+2020-05-02 02:19:43.760006    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15851520
+
+2020-05-02 02:19:43.760006    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11284480
+
+2020-05-02 02:19:43.760006    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 69976064
+
+2020-05-02 02:19:43.760006    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:19:43.761007    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5124096
+
+2020-05-02 02:19:43.761007    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49127424
+
+2020-05-02 02:19:43.761007    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 824635392
+
+2020-05-02 02:19:49.039878    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:19:49.040875    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5304320
+
+2020-05-02 02:19:49.040875    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6254592
+
+2020-05-02 02:19:49.040875    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5926912
+
+2020-05-02 02:19:49.041873    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10444800
+
+2020-05-02 02:19:49.041873    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17502208
+
+2020-05-02 02:19:49.042871    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15851520
+
+2020-05-02 02:19:49.042871    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11284480
+
+2020-05-02 02:19:49.042871    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 69996544
+
+2020-05-02 02:19:49.042871    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:19:49.043868    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5124096
+
+2020-05-02 02:19:49.043868    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49127424
+
+2020-05-02 02:19:49.043868    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 824635392
+
+2020-05-02 02:20:01.276253    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:20:01.276253    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5304320
+
+2020-05-02 02:20:01.277250    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6254592
+
+2020-05-02 02:20:01.277250    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5926912
+
+2020-05-02 02:20:01.278248    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10289152
+
+2020-05-02 02:20:01.279245    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17502208
+
+2020-05-02 02:20:01.279245    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15851520
+
+2020-05-02 02:20:01.280242    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11284480
+
+2020-05-02 02:20:01.280242    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 69976064
+
+2020-05-02 02:20:01.280242    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7843840
+
+2020-05-02 02:20:01.280242    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5124096
+
+2020-05-02 02:20:01.281239    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 49127424
+
+2020-05-02 02:20:01.281239    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 824639488
+
+2020-05-02 02:22:20.554354    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:22:20.554354    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5287936
+
+2020-05-02 02:22:20.555351    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6250496
+
+2020-05-02 02:22:20.555351    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5988352
+
+2020-05-02 02:22:20.555351    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10199040
+
+2020-05-02 02:22:20.555351    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17506304
+
+2020-05-02 02:22:20.556347    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15818752
+
+2020-05-02 02:22:20.556347    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11251712
+
+2020-05-02 02:22:20.556347    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 72462336
+
+2020-05-02 02:22:20.557344    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7827456
+
+2020-05-02 02:22:20.557344    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5120000
+
+2020-05-02 02:22:20.557344    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53755904
+
+2020-05-02 02:22:20.557344    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 896421888
+
+2020-05-02 02:23:52.763902    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:23:52.764900    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 02:23:52.764900    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 6242304
+
+2020-05-02 02:23:52.764900    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 5976064
+
+2020-05-02 02:23:52.764900    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10272768
+
+2020-05-02 02:23:52.765897    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17510400
+
+2020-05-02 02:23:52.765897    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15818752
+
+2020-05-02 02:23:52.765897    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11243520
+
+2020-05-02 02:23:52.765897    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64540672
+
+2020-05-02 02:23:52.766894    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7831552
+
+2020-05-02 02:23:52.766894    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5120000
+
+2020-05-02 02:23:52.766894    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53755904
+
+2020-05-02 02:23:52.766894    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 894324736
+
+2020-05-02 02:24:22.409978    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:24:22.409978    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 02:24:22.409978    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 02:24:22.410978    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6000640
+
+2020-05-02 02:24:22.410978    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10276864
+
+2020-05-02 02:24:22.410978    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17477632
+
+2020-05-02 02:24:22.411975    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15810560
+
+2020-05-02 02:24:22.411975    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11239424
+
+2020-05-02 02:24:22.411975    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64819200
+
+2020-05-02 02:24:22.411975    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:24:22.412972    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5120000
+
+2020-05-02 02:24:22.412972    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53616640
+
+2020-05-02 02:24:22.412972    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 888049664
+
+2020-05-02 02:24:32.521349    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:24:32.521349    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 02:24:32.522316    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 02:24:32.522316    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6000640
+
+2020-05-02 02:24:32.522316    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10207232
+
+2020-05-02 02:24:32.523314    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17477632
+
+2020-05-02 02:24:32.523314    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15810560
+
+2020-05-02 02:24:32.523314    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11239424
+
+2020-05-02 02:24:32.523314    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64659456
+
+2020-05-02 02:24:32.524311    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:24:32.524311    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5120000
+
+2020-05-02 02:24:32.524311    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53620736
+
+2020-05-02 02:24:32.525308    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 885907456
+
+2020-05-02 02:25:05.170213    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:25:05.171196    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 02:25:05.171196    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 02:25:05.171196    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6000640
+
+2020-05-02 02:25:05.172149    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10248192
+
+2020-05-02 02:25:05.172149    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17477632
+
+2020-05-02 02:25:05.172149    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15810560
+
+2020-05-02 02:25:05.172149    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11239424
+
+2020-05-02 02:25:05.173147    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64847872
+
+2020-05-02 02:25:05.173147    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:25:05.173147    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5120000
+
+2020-05-02 02:25:05.174144    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53620736
+
+2020-05-02 02:25:05.174144    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 885833728
+
+2020-05-02 02:25:15.007756    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:25:15.007756    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 02:25:15.007756    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 02:25:15.008753    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6000640
+
+2020-05-02 02:25:15.008753    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10280960
+
+2020-05-02 02:25:15.008753    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17473536
+
+2020-05-02 02:25:15.009751    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15810560
+
+2020-05-02 02:25:15.009751    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11239424
+
+2020-05-02 02:25:15.009751    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64741376
+
+2020-05-02 02:25:15.009751    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:25:15.010748    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5120000
+
+2020-05-02 02:25:15.010748    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53620736
+
+2020-05-02 02:25:15.010748    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 885833728
+
+2020-05-02 02:25:25.121181    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:25:25.121181    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 02:25:25.121181    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5967872
+
+2020-05-02 02:25:25.121181    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6000640
+
+2020-05-02 02:25:25.122179    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10285056
+
+2020-05-02 02:25:25.122179    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17477632
+
+2020-05-02 02:25:25.122179    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15810560
+
+2020-05-02 02:25:25.123177    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11239424
+
+2020-05-02 02:25:25.123177    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64966656
+
+2020-05-02 02:25:25.123177    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:25:25.124174    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5120000
+
+2020-05-02 02:25:25.124174    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53620736
+
+2020-05-02 02:25:25.124174    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 885837824
+
+2020-05-02 02:32:24.246178    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:32:24.247175    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5287936
+
+2020-05-02 02:32:24.247175    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 02:32:24.248173    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6008832
+
+2020-05-02 02:32:24.248173    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10227712
+
+2020-05-02 02:32:24.249170    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17244160
+
+2020-05-02 02:32:24.249170    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15716352
+
+2020-05-02 02:32:24.250168    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11210752
+
+2020-05-02 02:32:24.250168    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64094208
+
+2020-05-02 02:32:24.251165    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:32:24.252162    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5046272
+
+2020-05-02 02:32:24.252162    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53440512
+
+2020-05-02 02:32:24.253161    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 871731200
+
+2020-05-02 02:32:32.955367    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:32:32.955367    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5287936
+
+2020-05-02 02:32:32.955367    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 02:32:32.956327    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6021120
+
+2020-05-02 02:32:32.956327    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10223616
+
+2020-05-02 02:32:32.956327    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17268736
+
+2020-05-02 02:32:32.956327    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15716352
+
+2020-05-02 02:32:32.957324    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11210752
+
+2020-05-02 02:32:32.957324    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64106496
+
+2020-05-02 02:32:32.957324    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:32:32.957324    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5046272
+
+2020-05-02 02:32:32.958322    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53440512
+
+2020-05-02 02:32:32.958322    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 871731200
+
+2020-05-02 02:32:41.596922    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:32:41.596922    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5283840
+
+2020-05-02 02:32:41.597920    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 02:32:41.597920    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6021120
+
+2020-05-02 02:32:41.597920    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10342400
+
+2020-05-02 02:32:41.598882    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17264640
+
+2020-05-02 02:32:41.598882    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15716352
+
+2020-05-02 02:32:41.598882    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11210752
+
+2020-05-02 02:32:41.598882    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64094208
+
+2020-05-02 02:32:41.599879    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:32:41.599879    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5046272
+
+2020-05-02 02:32:41.599879    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53440512
+
+2020-05-02 02:32:41.600889    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 871657472
+
+2020-05-02 02:32:49.886714    ID: 684, Name: smss.exe, Priority: 11, WorkingSetSize: 1097728
+
+2020-05-02 02:32:49.886714    ID: 956, Name: csrss.exe, Priority: 13, WorkingSetSize: 5279744
+
+2020-05-02 02:32:49.887710    ID: 84, Name: wininit.exe, Priority: 13, WorkingSetSize: 5931008
+
+2020-05-02 02:32:49.887710    ID: 776, Name: csrss.exe, Priority: 13, WorkingSetSize: 6021120
+
+2020-05-02 02:32:49.887710    ID: 448, Name: services.exe, Priority: 9, WorkingSetSize: 10223616
+
+2020-05-02 02:32:49.887710    ID: 1032, Name: lsass.exe, Priority: 9, WorkingSetSize: 17268736
+
+2020-05-02 02:32:49.888709    ID: 1216, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 15716352
+
+2020-05-02 02:32:49.888709    ID: 1576, Name: winlogon.exe, Priority: 13, WorkingSetSize: 11210752
+
+2020-05-02 02:32:49.888709    ID: 1732, Name: dwm.exe, Priority: 13, WorkingSetSize: 64106496
+
+2020-05-02 02:32:49.889706    ID: 3488, Name: WUDFHost.exe, Priority: 13, WorkingSetSize: 7806976
+
+2020-05-02 02:32:49.889706    ID: 4644, Name: esif_uf.exe, Priority: 13, WorkingSetSize: 5046272
+
+2020-05-02 02:32:49.889706    ID: 8272, Name: ctfmon.exe, Priority: 13, WorkingSetSize: 53440512
+
+2020-05-02 02:32:49.890702    ID: 12700, Name: chrome.exe, Priority: 10, WorkingSetSize: 870809600
 

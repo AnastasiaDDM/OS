@@ -4,6 +4,7 @@ import time
 from sys import platform
 import journal
 import re
+import os
 
 # Хэш переданных аргументов
 
@@ -14,8 +15,10 @@ dic_argv = dict.fromkeys(['-t'], 10)
 dic_argv['-pr'] = 8
 
 # Файл-журнал для логов
-file_log = "logs_process.txt"
+file_log = "\logs_process.txt"
 
+
+pth = os.path.dirname(os.path.realpath(__file__))
 
 # Ф-ия таймера
 def timer_func():
@@ -32,7 +35,7 @@ def log_process(dic_process, p):
         dic_process[p]['pr']) + ", WorkingSetSize: " + str(dic_process[p]['size'])
 
     # Вызов ф-ии записи в файл-журнал
-    journal.log_journal(file_log, line_for_file)
+    journal.log_journal((str(pth)) + file_log, line_for_file)
 
 
 # Ф-ия составления хэша для ОС WIN
@@ -121,8 +124,13 @@ def check_write_process(dic_process):
     # Проверка наличия такого ключа
     if line_list_argv is not None:
 
-        # Сплит строки по запятым - получаем массив элементов запрашиваемых процессов
-        array_list_argv = line_list_argv.split(',')
+        try:
+            # Сплит строки по запятым - получаем массив элементов запрашиваемых процессов
+            array_list_argv = line_list_argv.split(',')
+            print(array_list_argv)
+        except:
+            array_list_argv = line_list_argv
+            pass
 
     # Получение значения ключа -pr
     priority = dic_argv.get('-pr')
@@ -131,7 +139,7 @@ def check_write_process(dic_process):
     for p in dic_process.keys():
 
         # Проверка наличия аргументов названий процессов для поиска (-list)
-        if line_list_argv is not None:
+        if len(array_list_argv) != 0:
 
             # Цикл проходит по всем заданным названиям процессов (-list)
             for process_argv in array_list_argv:
@@ -166,11 +174,21 @@ def index_env():
         # Проход по всем переданным аргументам(кроме 0 - это путь до исполняемого файла)
         for i in range(1, len(sys.argv)):
 
-            # Сплит аргумента
-            one_arg = format(sys.argv[i]).split(':')
+            try:
+                # Сплит аргумента
+                one_arg = format(sys.argv[i]).split(':')
 
-            # Добавление элемента в хэш агрументов
-            dic_argv[one_arg[0]] = one_arg[1]
+                if one_arg[0] == "" or one_arg[1] == "":
+
+                    print(format(sys.argv[i]) + " Данный параметр будет проигнорирован.")
+
+                else:
+
+                    # Добавление элемента в хэш агрументов
+                    dic_argv[one_arg[0]] = one_arg[1]
+            except:
+                print(format(sys.argv[i]) + " Данный параметр будет проигнорирован.")
+
 
         if platform == "linux" or platform == "linux2":
 
