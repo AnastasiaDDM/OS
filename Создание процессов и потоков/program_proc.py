@@ -15,7 +15,7 @@ dic_argv = dict.fromkeys(['-t'], 10)
 dic_argv['-pr'] = 8
 
 # Файл-журнал для логов
-file_log = "\logs_process.txt"
+file_log = "/logs_process.txt"
 
 
 pth = os.path.dirname(os.path.realpath(__file__))

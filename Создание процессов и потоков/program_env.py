@@ -17,7 +17,7 @@ dic_argv['-mode'] = 0
 dic_argv['-par'] = 'path'
 
 # Файл-журнал для логов
-file_log = "\logs_environ.txt"
+file_log = "/logs_environ.txt"
 
 pth = os.path.dirname(os.path.realpath(__file__))
 
@@ -109,8 +109,13 @@ def index_env():
 
         if platform == "linux" or platform == "linux2":
 
+            str_file_env = (str(pth)) + '/env.txt'
+
+            # Запускаем батник. он просто записывает переменные окружения в файл.
+            bash_func = subprocess.call(['/bin/bash', (str(pth)) + '/env_bash.bash', str_file_env])
+
             # Открытие файла, где записались из батника переменные окр.
-            with open("env.txt") as file:
+            with open(str_file_env) as file:
                 fr = file.read()
 
             # Вызов ф-ии преобразования данных в хэш

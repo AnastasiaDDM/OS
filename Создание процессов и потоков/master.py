@@ -3,10 +3,10 @@ import os
 import os.path
 import subprocess
 import sys
+from sys import platform
 import time
 import journal
 import re
-import winreg
 
 # Адрес текущей директории
 pth = os.path.dirname(os.path.realpath(__file__))
@@ -26,7 +26,7 @@ dic_argv['-mode'] = 0
 dic_argv['-par'] = 'path'
 
 # Файл-журнал для логов
-file_log = "\logs_journal.txt"
+file_log = "/logs_journal.txt"
 
 
 # Ф-ия таймера
@@ -107,13 +107,13 @@ def open_key_reg(autoload):
 # Вызов 1 программы с параметрами
 def slave_proc():
 
-    slave_proc = subprocess.Popen(['python.exe', (str(pth)) + '\program_proc.py', '-t:' + str(dic_argv['-t']), '-pr:' + str(dic_argv['-pr'])])
+    slave_proc = subprocess.Popen([sys.executable, (str(pth)) + '/program_proc.py', '-t:' + str(dic_argv['-t']), '-pr:' + str(dic_argv['-pr'])])
 
 
 # Вызов 2 программы с параметрами
 def slave_env():
 
-    slave_env = subprocess.Popen(['python.exe', (str(pth)) + '\program_env.py', '-t:' + str(dic_argv['-t']), '-par:' + str(dic_argv['-par']), '-mode:' + str(dic_argv['-mode'])])
+    slave_env = subprocess.Popen([sys.executable, (str(pth)) + '/program_env.py', '-t:' + str(dic_argv['-t']), '-par:' + str(dic_argv['-par']), '-mode:' + str(dic_argv['-mode'])])
 
 
 # Основная ф-ия входа.
@@ -143,7 +143,7 @@ def index():
             print("Значение для таймера(-t) должно быть числом, данный параметр будет проигнорирован. Установлен -t:" + str(dic_argv['-t']))
 
         # Проверка валидности значения приоритета
-        if re.match(r'\d+', str(dic_argv['-pr'])) is None:
+        if re.match(r'(-)?\d+', str(dic_argv['-pr'])) is None:
 
             dic_argv['-pr'] = 8
             print("Значение для приоритета(-pr) должно быть числом, данный параметр будет проигнорирован. Установлен -pr:" + str(dic_argv['-pr']))
@@ -172,14 +172,18 @@ def index():
         thread_proc.join()
         thread_env.join()
 
-        # Проверка наличия ключа -a
-        autoload = dic_argv.get('-a')
+        if platform != "linux" and platform != "linux2":
 
-        # Проверка наличия такого ключа
-        if autoload is not None:
+            import winreg
+    
+            # Проверка наличия ключа -a
+            autoload = dic_argv.get('-a')
 
-            # Ф-ия открытия ключа реестра
-            open_key_reg(autoload)
+            # Проверка наличия такого ключа
+            if autoload is not None:
+
+                # Ф-ия открытия ключа реестра
+                open_key_reg(autoload)
 
         # Ф-ия запуска таймера для мастера
         timer_func()
@@ -188,15 +192,38 @@ def index():
 # Ф-ия проверки создания файла stop на рабочем столе
 def check():
 
-    if os.path.isfile('C:/Users/79016/Desktop/stop.txt'):
-        print("Файл существует")
 
-        # Создание записи в журнале мастера и выход из программы
-        log_master()
-        sys.exit()
+    if platform == "linux" or platform == "linux2":
+    
+        file_stop = os.environ['HOME']
+        print(file_stop)
+        print(str("'" + file_stop + "/Рабочий стол/stop.txt" + "'"))
+
+        #if os.path.isfile(file_stop + "/'Рабочий стол'/stop.txt"):
+        #if os.path.isfile(str("'" + file_stop + "/Документы/stop.txt" + "'").decode('cp1251').encode('utf8')):
+        if os.path.isfile(str("'" + file_stop + "/Рабочий стол/stop.txt" + "'")):
+            print("Файл существует")
+
+            # Создание записи в журнале мастера и выход из программы
+            log_master()
+            sys.exit()
+
+        else:
+            print("Файл не существует")
 
     else:
-        print("Файл не существует")
+        
+        file_stop = os.environ['USERPROFILE']
+
+        if os.path.isfile(file_stop + r'\Desktop\stop.txt'):
+            print("Файл существует")
+
+            # Создание записи в журнале мастера и выход из программы
+            log_master()
+            sys.exit()
+
+        else:
+            print("Файл не существует")
 
 
 index()
